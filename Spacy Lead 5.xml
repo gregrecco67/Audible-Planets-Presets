@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<state name="Spacy Lead 5" author="me" tags="lead">
+  <state>
+    <instance/>
+    <MODMATRIX/>
+  </state>
+  <param uid="osc1spread" val="100.0"/>
+  <param uid="osc1pan" val="-0.2586668729782104"/>
+  <param uid="osc2coarse" val="3.0"/>
+  <param uid="osc2spread" val="82.62557220458984"/>
+  <param uid="osc2pan" val="0.2106554508209229"/>
+  <param uid="osc3coarse" val="4.0"/>
+  <param uid="osc3detune" val="0.009078551083803177"/>
+  <param uid="osc3spread" val="100.0"/>
+  <param uid="osc4coarse" val="5.0"/>
+  <param uid="osc4detune" val="0.01263757329434156"/>
+  <param uid="env1attack" val="60.0"/>
+  <param uid="env1decay" val="0.008499407209455967"/>
+  <param uid="env1sustain" val="100.0"/>
+  <param uid="env1release" val="0.0"/>
+  <param uid="env1acurve" val="0.4245271682739258"/>
+  <param uid="env1drcurve" val="1.0"/>
+  <param uid="env1time" val="0.09999998658895493"/>
+  <param uid="env2attack" val="2.952509164810181"/>
+  <param uid="env2decay" val="15.48437690734863"/>
+  <param uid="env2sustain" val="0.0"/>
+  <param uid="env2release" val="60.0"/>
+  <param uid="env3attack" val="0.6653867959976196"/>
+  <param uid="env3decay" val="0.0"/>
+  <param uid="env3sustain" val="100.0"/>
+  <param uid="env3release" val="0.0"/>
+  <param uid="env3acurve" val="0.9969909191131592"/>
+  <param uid="env4attack" val="0.0"/>
+  <param uid="env4decay" val="0.5098168849945068"/>
+  <param uid="env4sustain" val="0.0"/>
+  <param uid="env4release" val="0.1988862454891205"/>
+  <param uid="env4acurve" val="-1.0"/>
+  <param uid="lfo1enable" val="1.0"/>
+  <param uid="lfo2enable" val="1.0"/>
+  <param uid="lfo3enable" val="1.0"/>
+  <param uid="lfo3sync" val="0.0"/>
+  <param uid="lfo3rate" val="0.0006272830651141703"/>
+  <param uid="lfo4enable" val="1.0"/>
+  <param uid="lfo4fade" val="2.667696475982666"/>
+  <param uid="mono" val="1.0"/>
+  <param uid="gMode" val="2.0"/>
+  <param uid="gRate" val="0.05261588469147682"/>
+  <param uid="legato" val="1.0"/>
+  <param uid="fltkey" val="100.0"/>
+  <param uid="fltfreq" val="103.5908355712891"/>
+  <param uid="fltres" val="28.18678665161133"/>
+  <param uid="pitch" val="1.077150821685791"/>
+  <param uid="blend" val="0.433552086353302"/>
+  <param uid="demodmix" val="0.6408864259719849"/>
+  <param uid="algo" val="2.0"/>
+  <param uid="fxgain" val="1.000001430511475"/>
+  <param uid="wsdrive" val="14.01203346252441"/>
+  <param uid="wsdry" val="0.7220539450645447"/>
+  <param uid="cpattack" val="0.0000199999994947575"/>
+  <param uid="dltimeleft" val="2.963672637939453"/>
+  <param uid="dltemposync" val="0.0"/>
+  <param uid="dlpingpong" val="1.0"/>
+  <param uid="dlwet" val="0.4680794179439545"/>
+  <param uid="chrate" val="0.05499999970197678"/>
+  <param uid="rmmodfreq1" val="39.9999885559082"/>
+  <param uid="rmshape1" val="0.6656175255775452"/>
+  <param uid="rmmix1" val="0.04932617396116257"/>
+  <param uid="rmmodfreq2" val="39.9999885559082"/>
+  <param uid="rmmix2" val="0.1007487773895264"/>
+  <param uid="fxa1" val="1.0"/>
+  <param uid="fxa2" val="3.0"/>
+  <param uid="fxb2" val="7.0"/>
+</state>

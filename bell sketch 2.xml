@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<state name="bell sketch 2" author="me" tags="bells keys">
+  <state>
+    <instance/>
+    <MODMATRIX>
+      <MODITEM srcId="lfo2" depth="0.05000000074505806" enabled="1" dstId="osc2fine"/>
+      <MODITEM srcId="lfo2" depth="0.7799999713897705" enabled="1" dstId="osc2volume"/>
+      <MODITEM srcId="lfo3" depth="0.2099999934434891" enabled="1" dstId="osc3fine"/>
+      <MODITEM srcId="lfo2" depth="1.0" enabled="1" dstId="osc3volume"/>
+      <MODITEM srcId="env4" depth="1.0" enabled="1" dstId="lfo3depth"/>
+    </MODMATRIX>
+  </state>
+  <param uid="osc2coarse" val="12.0"/>
+  <param uid="osc2fine" val="-0.07393753528594971"/>
+  <param uid="osc3coarse" val="8.0"/>
+  <param uid="osc3fine" val="0.08739686012268066"/>
+  <param uid="osc3volume" val="0.1499999910593033"/>
+  <param uid="osc4coarse" val="12.0"/>
+  <param uid="osc4saw" val="1.0"/>
+  <param uid="env1attack" val="0.0"/>
+  <param uid="env1decay" val="2.700000524520874"/>
+  <param uid="env1sustain" val="0.0"/>
+  <param uid="env1release" val="4.061388969421387"/>
+  <param uid="env1time" val="0.09999998658895493"/>
+  <param uid="env2attack" val="0.0"/>
+  <param uid="env2decay" val="4.600000858306885"/>
+  <param uid="env2sustain" val="0.0"/>
+  <param uid="env2release" val="0.550000011920929"/>
+  <param uid="env3attack" val="0.0"/>
+  <param uid="env3decay" val="7.134391307830811"/>
+  <param uid="env3sustain" val="0.0"/>
+  <param uid="env3release" val="0.5744780898094177"/>
+  <param uid="env4attack" val="0.0"/>
+  <param uid="env4decay" val="0.1137580201029778"/>
+  <param uid="env4sustain" val="4.223438739776611"/>
+  <param uid="env4release" val="5.766530990600586"/>
+  <param uid="lfo1depth" val="0.1478437185287476"/>
+  <param uid="lfo2enable" val="1.0"/>
+  <param uid="lfo2wave" val="7.0"/>
+  <param uid="lfo2beat" val="7.0"/>
+  <param uid="lfo2depth" val="0.4719669818878174"/>
+  <param uid="lfo3enable" val="1.0"/>
+  <param uid="lfo3wave" val="16.0"/>
+  <param uid="lfo3depth" val="0.01087331771850586"/>
+  <param uid="level" val="10.0"/>
+  <param uid="fltfreq" val="86.86246490478516"/>
+  <param uid="demodmix" val="0.3287031352519989"/>
+  <param uid="algo" val="2.0"/>
+  <param uid="scale" val="2.922109365463257"/>
+  <param uid="wsdrive" val="8.543684005737305"/>
+  <param uid="cpratio" val="2.666717529296875"/>
+  <param uid="cpattack" val="0.001020000083371997"/>
+  <param uid="cpknee" val="1.799999952316284"/>
+  <param uid="chrate" val="0.05499999970197678"/>
+  <param uid="rmmodfreq1" val="2101.993896484375"/>
+  <param uid="rmshape1" val="0.08015478402376175"/>
+  <param uid="rmmix1" val="0.3583840429782867"/>
+  <param uid="rmmodfreq2" val="449.3544311523438"/>
+  <param uid="rmshape2" val="0.08598046749830246"/>
+  <param uid="rmmix2" val="0.2046031504869461"/>
+  <param uid="rmspread" val="0.2142131328582764"/>
+  <param uid="rmlowcut" val="4701.5126953125"/>
+  <param uid="rmhighcut" val="12175.7421875"/>
+  <param uid="fxa1" val="2.0"/>
+  <param uid="fxa2" val="6.0"/>
+  <param uid="fxb1" val="1.0"/>
+  <param uid="fxb2" val="7.0"/>
+  <param uid="chainAtoB" val="0.0"/>
+</state>

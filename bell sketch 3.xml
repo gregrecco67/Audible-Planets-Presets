@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<state name="bell sketch 3" author="me" tags="bells keys">
+  <state>
+    <instance/>
+    <MODMATRIX>
+      <MODITEM srcId="mlfo1" depth="0.5899999737739563" enabled="1" dstId="rmmodfreq1"/>
+      <MODITEM srcId="mlfo2" depth="0.1000000014901161" enabled="1" dstId="rmmodfreq2"/>
+    </MODMATRIX>
+  </state>
+  <param uid="osc2coarse" val="15.0"/>
+  <param uid="osc2fine" val="0.2809557616710663"/>
+  <param uid="osc3coarse" val="8.0"/>
+  <param uid="osc3fine" val="0.2919998168945312"/>
+  <param uid="osc3volume" val="0.1499999910593033"/>
+  <param uid="osc4coarse" val="13.0"/>
+  <param uid="osc4saw" val="1.0"/>
+  <param uid="env1attack" val="0.0"/>
+  <param uid="env1decay" val="2.700000524520874"/>
+  <param uid="env1sustain" val="0.0"/>
+  <param uid="env1release" val="4.061388969421387"/>
+  <param uid="env1time" val="0.09999998658895493"/>
+  <param uid="env2attack" val="0.0"/>
+  <param uid="env2decay" val="4.600000858306885"/>
+  <param uid="env2sustain" val="0.0"/>
+  <param uid="env2release" val="0.550000011920929"/>
+  <param uid="env3attack" val="0.0"/>
+  <param uid="env3decay" val="7.134391307830811"/>
+  <param uid="env3sustain" val="0.0"/>
+  <param uid="env3release" val="0.5744780898094177"/>
+  <param uid="env4attack" val="0.0"/>
+  <param uid="env4decay" val="0.1137580201029778"/>
+  <param uid="env4sustain" val="4.223438739776611"/>
+  <param uid="env4release" val="5.766530990600586"/>
+  <param uid="lfo1enable" val="1.0"/>
+  <param uid="lfo1beat" val="23.0"/>
+  <param uid="lfo1depth" val="0.1478437185287476"/>
+  <param uid="lfo2enable" val="1.0"/>
+  <param uid="lfo2beat" val="27.0"/>
+  <param uid="gMode" val="2.0"/>
+  <param uid="gRate" val="0.007446736097335815"/>
+  <param uid="legato" val="1.0"/>
+  <param uid="fltfreq" val="86.86246490478516"/>
+  <param uid="demodmix" val="0.3287031352519989"/>
+  <param uid="scale" val="1.966077208518982"/>
+  <param uid="fxgain" val="1.000001430511475"/>
+  <param uid="wsdrive" val="8.544562339782715"/>
+  <param uid="cpattack" val="0.0000199999994947575"/>
+  <param uid="dlbeatsright" val="10.0"/>
+  <param uid="dlpingpong" val="1.0"/>
+  <param uid="dlwet" val="0.8706891536712646"/>
+  <param uid="chrate" val="0.05499999970197678"/>
+  <param uid="rvsize" val="2.035607814788818"/>
+  <param uid="rvwet" val="0.08728790283203125"/>
+  <param uid="mblowshelffreq" val="71.0"/>
+  <param uid="mblowshelfgain" val="0.2199999988079071"/>
+  <param uid="mbhighshelffreq" val="5039.0"/>
+  <param uid="mbhighshelfgain" val="2.856586694717407"/>
+  <param uid="rmmodfreq1" val="30.58070182800293"/>
+  <param uid="rmshape1" val="0.1790221631526947"/>
+  <param uid="rmmix1" val="0.2769487202167511"/>
+  <param uid="rmmodfreq2" val="1393.942016601562"/>
+  <param uid="rmshape2" val="0.2559353113174438"/>
+  <param uid="rmmix2" val="0.2048976868391037"/>
+  <param uid="rmspread" val="1.0"/>
+  <param uid="fxa1" val="5.0"/>
+  <param uid="fxa2" val="7.0"/>
+  <param uid="fxa3" val="6.0"/>
+  <param uid="fxa4" val="3.0"/>
+  <param uid="fxb1" val="1.0"/>
+</state>
