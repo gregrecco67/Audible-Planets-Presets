@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<state name="Basic Brass 2" author="me" tags="brass">
+  <state>
+    <instance/>
+    <MODMATRIX>
+      <MODITEM srcId="mpet" depth="1.0" enabled="1" dstId="fltfreq"/>
+    </MODMATRIX>
+  </state>
+  <param uid="osc4coarse" val="6.0"/>
+  <param uid="env1attack" val="0.01000000350177288"/>
+  <param uid="env1decay" val="0.3963666558265686"/>
+  <param uid="env1sustain" val="92.04374694824219"/>
+  <param uid="env1release" val="0.09999998658895493"/>
+  <param uid="env1time" val="0.09999998658895493"/>
+  <param uid="env2attack" val="0.01000000350177288"/>
+  <param uid="env2release" val="0.09999998658895493"/>
+  <param uid="env3attack" val="0.01000000350177288"/>
+  <param uid="env3release" val="0.09999998658895493"/>
+  <param uid="env4attack" val="0.01000000350177288"/>
+  <param uid="env4release" val="0.09999998658895493"/>
+  <param uid="gRate" val="0.5343131422996521"/>
+  <param uid="velSens" val="65.25468444824219"/>
+  <param uid="mpe" val="1.0"/>
+  <param uid="fltfreq" val="52.78656768798828"/>
+  <param uid="fxgain" val="-13.23124885559082"/>
+  <param uid="cpattack" val="0.0000199999994947575"/>
+  <param uid="chrate" val="0.05499999970197678"/>
+  <param uid="rvsize" val="2.361390590667725"/>
+  <param uid="rvdamping" val="0.8986009955406189"/>
+  <param uid="rvlowpass" val="5018.8447265625"/>
+  <param uid="rvwet" val="0.2120781242847443"/>
+  <param uid="rmmodfreq1" val="39.9999885559082"/>
+  <param uid="rmmodfreq2" val="39.9999885559082"/>
+  <param uid="fxa2" val="8.0"/>
+  <param uid="fxa3" val="6.0"/>
+</state>
