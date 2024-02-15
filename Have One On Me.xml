@@ -23,22 +23,22 @@
   <param uid="osc4coarse" val="2.0"/>
   <param uid="osc4volume" val="0.0"/>
   <param uid="env1attack" val="0.01000000350177288"/>
-  <param uid="env1release" val="5.973838806152344"/>
+  <param uid="env1release" val="12.0"/>
   <param uid="env1time" val="0.09999998658895493"/>
   <param uid="env2attack" val="0.00004987621650798246"/>
   <param uid="env2decay" val="0.4828658699989319"/>
   <param uid="env2sustain" val="9.177044868469238"/>
-  <param uid="env2release" val="8.289708137512207"/>
+  <param uid="env2release" val="12.0"/>
   <param uid="env2time" val="0.09999998658895493"/>
   <param uid="env3attack" val="1.362014889717102"/>
   <param uid="env3decay" val="0.9600622057914734"/>
   <param uid="env3sustain" val="0.0"/>
-  <param uid="env3release" val="1.420314908027649"/>
+  <param uid="env3release" val="12.0"/>
   <param uid="env3acurve" val="-1.0"/>
   <param uid="env3drcurve" val="0.02457618713378906"/>
   <param uid="env3time" val="0.09999998658895493"/>
   <param uid="env4attack" val="0.009999983943998814"/>
-  <param uid="env4sustain" val="100.0"/>
+  <param uid="env4sustain" val="82.12327575683594"/>
   <param uid="env4release" val="11.91845035552979"/>
   <param uid="env4acurve" val="-0.1366392821073532"/>
   <param uid="env4time" val="0.09999998658895493"/>
