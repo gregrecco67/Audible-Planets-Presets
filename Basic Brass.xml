@@ -1,12 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<state name="Basic Brass" author="me" tags="brass">
+<state name="Basic Brass" author="factory" tags="brass mpe">
   <state>
-    <instance/>
+    <instance editorScale="1.633103489875793" selectedAuthors="me" selectedTags=""
+              browserOpen="1"/>
     <MODMATRIX>
-      <MODITEM srcId="mpep" depth="0.9800000190734863" enabled="1" dstId="env1sustain"/>
-      <MODITEM srcId="mpep" depth="0.4399999976158142" enabled="1" dstId="fltfreq"/>
+      <MODITEM srcId="mpep" depth="0.9800000190734863" enabled="1" dstId="env1sustain"
+               function="linear" biPolarMapping="0"/>
+      <MODITEM srcId="mpep" depth="0.4399999976158142" enabled="1" dstId="fltfreq"
+               function="linear" biPolarMapping="0"/>
     </MODMATRIX>
+    <mseg1 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg1>
+    <mseg2 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg2>
+    <mseg3 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg3>
+    <mseg4 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg4>
   </state>
   <param uid="env1attack" val="0.01000000350177288"/>
   <param uid="env1sustain" val="0.0"/>
@@ -14,18 +37,20 @@
   <param uid="env1time" val="0.09999998658895493"/>
   <param uid="env2attack" val="0.01000000350177288"/>
   <param uid="env2release" val="0.09999998658895493"/>
+  <param uid="env2time" val="0.09999998658895493"/>
   <param uid="env3attack" val="0.01000000350177288"/>
   <param uid="env3release" val="0.09999998658895493"/>
+  <param uid="env3time" val="0.09999998658895493"/>
   <param uid="env4attack" val="0.01000000350177288"/>
   <param uid="env4release" val="0.09999998658895493"/>
+  <param uid="env4time" val="0.09999998658895493"/>
   <param uid="gRate" val="0.5343131422996521"/>
   <param uid="velSens" val="65.25468444824219"/>
   <param uid="mpe" val="1.0"/>
   <param uid="fltfreq" val="57.80760192871094"/>
-  <param uid="fxgain" val="1.000001430511475"/>
   <param uid="cpattack" val="0.0000199999994947575"/>
-  <param uid="chrate" val="0.05499999970197678"/>
-  <param uid="rvwet" val="0.2120781242847443"/>
+  <param uid="chrate" val="0.05500001460313797"/>
+  <param uid="rvwet" val="0.1347012668848038"/>
   <param uid="rmmodfreq1" val="39.9999885559082"/>
   <param uid="rmmodfreq2" val="39.9999885559082"/>
   <param uid="fxa1" val="6.0"/>

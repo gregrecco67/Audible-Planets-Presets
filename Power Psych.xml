@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<state name="Power Psych" author="factory" tags="pad mpe">
+  <state>
+    <instance editorScale="1.633103489875793" selectedAuthors="me" selectedTags=""
+              browserOpen="1"/>
+    <MODMATRIX>
+      <MODITEM srcId="mlfo2" depth="0.4399999976158142" enabled="1" dstId="osc2phase"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="mpet" depth="1.0" enabled="1" dstId="fltfreq" function="linear"
+               biPolarMapping="0"/>
+      <MODITEM srcId="lfo2" depth="0.2800000011920929" enabled="1" dstId="wsgain"
+               function="linear" biPolarMapping="1"/>
+    </MODMATRIX>
+    <mseg1 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg1>
+    <mseg2 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg2>
+    <mseg3 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg3>
+    <mseg4 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg4>
+  </state>
+  <param uid="osc1phase" val="0.05390626192092896"/>
+  <param uid="osc1tones" val="3.064000129699707"/>
+  <param uid="osc1detune" val="0.05068997293710709"/>
+  <param uid="osc1spread" val="100.0"/>
+  <param uid="osc2phase" val="1.0"/>
+  <param uid="osc2detune" val="0.05335790663957596"/>
+  <param uid="osc2spread" val="100.0"/>
+  <param uid="osc3detune" val="0.05602575838565826"/>
+  <param uid="osc3spread" val="100.0"/>
+  <param uid="osc4coarse" val="6.0"/>
+  <param uid="osc4detune" val="0.04402020201086998"/>
+  <param uid="osc4spread" val="92.84267425537109"/>
+  <param uid="env1attack" val="0.01000000350177288"/>
+  <param uid="env1decay" val="0.3963666558265686"/>
+  <param uid="env1sustain" val="92.04374694824219"/>
+  <param uid="env1release" val="0.09999998658895493"/>
+  <param uid="env1time" val="0.09999998658895493"/>
+  <param uid="env2attack" val="0.01000000350177288"/>
+  <param uid="env2release" val="0.09999998658895493"/>
+  <param uid="env2time" val="0.09999998658895493"/>
+  <param uid="env3attack" val="0.01000000350177288"/>
+  <param uid="env3release" val="0.09999998658895493"/>
+  <param uid="env3time" val="0.09999998658895493"/>
+  <param uid="env4attack" val="0.01000000350177288"/>
+  <param uid="env4release" val="0.09999998658895493"/>
+  <param uid="env4time" val="0.09999998658895493"/>
+  <param uid="lfo2enable" val="1.0"/>
+  <param uid="lfo2beat" val="23.0"/>
+  <param uid="gRate" val="0.5343131422996521"/>
+  <param uid="level" val="-8.0"/>
+  <param uid="velSens" val="65.25468444824219"/>
+  <param uid="mpe" val="1.0"/>
+  <param uid="fltfreq" val="33.24141311645508"/>
+  <param uid="algo" val="1.0"/>
+  <param uid="fxgain" val="-12.69766616821289"/>
+  <param uid="wsdrive" val="40.0"/>
+  <param uid="wsgain" val="1.253556847572327"/>
+  <param uid="wswet" val="1.0"/>
+  <param uid="wsfunc" val="5.0"/>
+  <param uid="cpattack" val="0.0000199999994947575"/>
+  <param uid="dltimeleft" val="0.5869186520576477"/>
+  <param uid="dlbeatsright" val="16.0"/>
+  <param uid="dltemposync" val="0.0"/>
+  <param uid="dlpingpong" val="1.0"/>
+  <param uid="chrate" val="0.05500001460313797"/>
+  <param uid="rvsize" val="2.0"/>
+  <param uid="rvdamping" val="13825.8701171875"/>
+  <param uid="rvlowpass" val="7882.72900390625"/>
+  <param uid="rvpredelay" val="0.01720699481666088"/>
+  <param uid="rvwet" val="0.476199597120285"/>
+  <param uid="rmmodfreq1" val="39.9999885559082"/>
+  <param uid="rmmodfreq2" val="39.9999885559082"/>
+  <param uid="fxb1" val="1.0"/>
+  <param uid="fxb2" val="8.0"/>
+  <param uid="fxb3" val="3.0"/>
+  <param uid="fxb4" val="6.0"/>
+  <param uid="chainAtoB" val="0.0"/>
+  <param uid="laneBGain" val="7.574996948242188"/>
+</state>

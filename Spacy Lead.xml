@@ -1,30 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<state name="Spacy Lead" author="me" tags="lead">
+<state name="Spacy Lead" author="factory" tags="lead">
   <state>
-    <instance/>
+    <instance editorScale="1.633103489875793" selectedAuthors="me" selectedTags=""
+              browserOpen="1"/>
     <MODMATRIX>
-      <MODITEM srcId="env3" depth="1.0" enabled="1" dstId="osc1fixed"/>
-      <MODITEM srcId="lfo4" depth="0.3400000035762787" enabled="1" dstId="osc2pan"/>
-      <MODITEM srcId="mpep" depth="-0.05000000074505806" enabled="1" dstId="osc3tones"/>
-      <MODITEM srcId="lfo3" depth="-0.009999999776482582" enabled="1" dstId="osc3pan"/>
-      <MODITEM srcId="mlfo1" depth="-0.07000000029802322" enabled="1" dstId="env4decay"/>
-      <MODITEM srcId="mlfo2" depth="-0.009999999776482582" enabled="1" dstId="env4sustain"/>
-      <MODITEM srcId="env2" depth="0.07999999821186066" enabled="1" dstId="lfo1phase"/>
-      <MODITEM srcId="lfo1" depth="-0.07000000029802322" enabled="1" dstId="lfo3offset"/>
-      <MODITEM srcId="mpet" depth="0.2000000029802322" enabled="1" dstId="level"/>
-      <MODITEM srcId="env4" depth="-0.05999999865889549" enabled="1" dstId="level"/>
-      <MODITEM srcId="mpet" depth="-0.05000000074505806" enabled="1" dstId="fltres"/>
-      <MODITEM srcId="note" depth="-1.0" enabled="1" dstId="demodmix"/>
-      <MODITEM srcId="pb" depth="0.05000000074505806" enabled="1" dstId="fxgain"/>
-      <MODITEM srcId="env1" depth="-0.07999999821186066" enabled="1" dstId="wsdrive"/>
-      <MODITEM srcId="lfo3" depth="0.01999999955296516" enabled="1" dstId="cpratio"/>
-      <MODITEM srcId="lfo3" depth="-0.1800000071525574" enabled="1" dstId="dltimeleft"/>
-      <MODITEM srcId="pb" depth="0.05999999865889549" enabled="1" dstId="chdepth"/>
-      <MODITEM srcId="mlfo4" depth="0.07999999821186066" enabled="1" dstId="chfeedback"/>
-      <MODITEM srcId="lfo4" depth="-0.03999999910593033" enabled="1" dstId="rmhighcut"/>
-      <MODITEM srcId="lfo4" depth="-0.07000000029802322" enabled="1" dstId="fxb3"/>
+      <MODITEM srcId="env3" depth="1.0" enabled="1" dstId="osc1fixed" function="linear"
+               biPolarMapping="1"/>
+      <MODITEM srcId="lfo4" depth="0.3400000035762787" enabled="1" dstId="osc2pan"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="mpep" depth="-0.05000000074505806" enabled="1" dstId="osc3tones"
+               function="linear" biPolarMapping="0"/>
+      <MODITEM srcId="lfo3" depth="-0.009999999776482582" enabled="1" dstId="osc3pan"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="mlfo1" depth="-0.07000000029802322" enabled="1" dstId="env4decay"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="mlfo2" depth="-0.009999999776482582" enabled="1" dstId="env4sustain"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="env2" depth="0.07999999821186066" enabled="1" dstId="lfo1phase"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="lfo1" depth="-0.07000000029802322" enabled="1" dstId="lfo3offset"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="mpet" depth="0.2000000029802322" enabled="1" dstId="level"
+               function="linear" biPolarMapping="0"/>
+      <MODITEM srcId="env4" depth="-0.05999999865889549" enabled="1" dstId="level"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="mpet" depth="-0.05000000074505806" enabled="1" dstId="fltres"
+               function="linear" biPolarMapping="0"/>
+      <MODITEM srcId="note" depth="-1.0" enabled="1" dstId="demodmix" function="linear"
+               biPolarMapping="0"/>
+      <MODITEM srcId="pb" depth="0.05000000074505806" enabled="1" dstId="fxgain"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="env1" depth="-0.07999999821186066" enabled="1" dstId="wsdrive"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="lfo3" depth="0.01999999955296516" enabled="1" dstId="cpratio"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="lfo3" depth="-0.1800000071525574" enabled="1" dstId="dltimeleft"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="pb" depth="0.05999999865889549" enabled="1" dstId="chdepth"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="mlfo4" depth="0.07999999821186066" enabled="1" dstId="chfeedback"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="lfo4" depth="-0.03999999910593033" enabled="1" dstId="rmhighcut"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="lfo4" depth="-0.07000000029802322" enabled="1" dstId="fxb3"
+               function="linear" biPolarMapping="1"/>
     </MODMATRIX>
+    <mseg1 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg1>
+    <mseg2 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg2>
+    <mseg3 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg3>
+    <mseg4 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg4>
   </state>
   <param uid="osc1coarse" val="4.0"/>
   <param uid="osc1volume" val="0.7599999904632568"/>
@@ -49,19 +90,22 @@
   <param uid="env2decay" val="3.128258943557739"/>
   <param uid="env2sustain" val="37.15144729614258"/>
   <param uid="env2release" val="0.09999998658895493"/>
+  <param uid="env2time" val="0.09999998658895493"/>
   <param uid="env3attack" val="4.766274929046631"/>
   <param uid="env3decay" val="0.09999998658895493"/>
   <param uid="env3release" val="0.09999998658895493"/>
+  <param uid="env3time" val="0.09999998658895493"/>
   <param uid="env4attack" val="6.734153747558594"/>
   <param uid="env4decay" val="0.09999998658895493"/>
   <param uid="env4sustain" val="51.81549072265625"/>
   <param uid="env4release" val="2.590576171875"/>
   <param uid="env4drcurve" val="0.03575503826141357"/>
+  <param uid="env4time" val="0.09999998658895493"/>
   <param uid="lfo1enable" val="1.0"/>
   <param uid="lfo2enable" val="1.0"/>
   <param uid="lfo3enable" val="1.0"/>
   <param uid="lfo4enable" val="1.0"/>
-  <param uid="lfo4fade" val="2.667696475982666"/>
+  <param uid="lfo4fade" val="2.667697906494141"/>
   <param uid="fltkey" val="100.0"/>
   <param uid="fltfreq" val="103.5908355712891"/>
   <param uid="fltres" val="28.18678665161133"/>
@@ -69,9 +113,8 @@
   <param uid="blend" val="0.433552086353302"/>
   <param uid="demodmix" val="0.8344841003417969"/>
   <param uid="algo" val="2.0"/>
-  <param uid="fxgain" val="1.000001430511475"/>
   <param uid="cpattack" val="0.0000199999994947575"/>
-  <param uid="chrate" val="0.05499999970197678"/>
+  <param uid="chrate" val="0.05500001460313797"/>
   <param uid="rmmodfreq1" val="39.9999885559082"/>
   <param uid="rmshape1" val="0.6656175255775452"/>
   <param uid="rmmix1" val="0.04932617396116257"/>

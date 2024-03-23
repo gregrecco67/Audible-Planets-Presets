@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<state name="Ostinato Bells 3" author="me" tags="bells">
+<state name="Ostinato Bells 3" author="factory" tags="bells repeating pad">
   <state>
-    <instance/>
+    <instance editorScale="1.633103489875793" selectedAuthors="me" selectedTags=""
+              browserOpen="1"/>
     <MODMATRIX/>
+    <mseg1 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg1>
+    <mseg2 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg2>
+    <mseg3 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg3>
+    <mseg4 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg4>
   </state>
   <param uid="osc1volume" val="0.2299999892711639"/>
   <param uid="osc1detune" val="0.0134818721562624"/>
@@ -29,18 +50,21 @@
   <param uid="env2sustain" val="2.092272996902466"/>
   <param uid="env2release" val="0.550000011920929"/>
   <param uid="env2syncrepeat" val="1.0"/>
+  <param uid="env2time" val="0.09999998658895493"/>
   <param uid="env2beat" val="16.0"/>
   <param uid="env3attack" val="0.0"/>
   <param uid="env3decay" val="0.3031464815139771"/>
   <param uid="env3sustain" val="4.000933647155762"/>
   <param uid="env3release" val="0.5744780898094177"/>
   <param uid="env3syncrepeat" val="1.0"/>
+  <param uid="env3time" val="0.09999998658895493"/>
   <param uid="env3beat" val="7.0"/>
   <param uid="env4attack" val="0.0"/>
   <param uid="env4decay" val="0.1137580201029778"/>
   <param uid="env4sustain" val="4.223438739776611"/>
   <param uid="env4release" val="5.766530990600586"/>
   <param uid="env4syncrepeat" val="1.0"/>
+  <param uid="env4time" val="0.09999998658895493"/>
   <param uid="env4beat" val="14.0"/>
   <param uid="lfo1depth" val="0.1478437185287476"/>
   <param uid="lfo2enable" val="1.0"/>
@@ -58,11 +82,8 @@
   <param uid="demodmix" val="0.4658492505550385"/>
   <param uid="algo" val="2.0"/>
   <param uid="scale" val="2.922109365463257"/>
-  <param uid="fxgain" val="1.000001430511475"/>
   <param uid="cpattack" val="0.0000199999994947575"/>
-  <param uid="chrate" val="0.05499999970197678"/>
-  <param uid="mblowshelffreq" val="20.0"/>
-  <param uid="mbhighshelffreq" val="20000.0"/>
+  <param uid="chrate" val="0.05500001460313797"/>
   <param uid="rmmodfreq1" val="6381.98779296875"/>
   <param uid="rmmodfreq2" val="39.9999885559082"/>
   <param uid="fxa1" val="2.0"/>

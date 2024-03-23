@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<state name="Lost Warbles 2" author="" tags="">
+  <state>
+    <instance editorScale="1.633103489875793" selectedAuthors="" selectedTags=""/>
+    <MODMATRIX>
+      <MODITEM srcId="mseg2" depth="1.0" enabled="1" dstId="osc1volume" function="linear"
+               biPolarMapping="1"/>
+      <MODITEM srcId="mseg1" depth="0.75" enabled="1" dstId="osc4volume" function="linear"
+               biPolarMapping="1"/>
+      <MODITEM srcId="mseg1" depth="1.0" enabled="1" dstId="squash" function="linear"
+               biPolarMapping="1"/>
+      <MODITEM srcId="mseg1" depth="0.5078125" enabled="1" dstId="fltfreq" function="linear"
+               biPolarMapping="1"/>
+      <MODITEM srcId="mseg1" depth="1.0" enabled="1" dstId="equant" function="linear"
+               biPolarMapping="1"/>
+      <MODITEM srcId="mseg1" depth="0.578125" enabled="1" dstId="pitch" function="linear"
+               biPolarMapping="1"/>
+      <MODITEM srcId="mseg1" depth="1.0" enabled="1" dstId="blend" function="linear"
+               biPolarMapping="1"/>
+      <MODITEM srcId="mseg1" depth="1.0" enabled="1" dstId="demodmix" function="linear"
+               biPolarMapping="1"/>
+      <MODITEM srcId="mseg1" depth="0.5078125" enabled="1" dstId="wsdrive" function="linear"
+               biPolarMapping="1"/>
+    </MODMATRIX>
+    <mseg1 startIndex="0" endIndex="25">
+      <PT t="0.0" v="0.0" c="0.0"/>
+      <PT t="0.0" v="0.5" c="22.05538749694824"/>
+      <PT t="0.06666667014360428" v="0.5042999982833862" c="0.0"/>
+      <PT t="0.06666667014360428" v="-0.75" c="0.0"/>
+      <PT t="0.1333333402872086" v="-0.75" c="0.0"/>
+      <PT t="0.1333333402872086" v="0.6440805196762085" c="0.0"/>
+      <PT t="0.2000000029802322" v="0.6440805196762085" c="0.0"/>
+      <PT t="0.2000000029802322" v="-0.5" c="0.0"/>
+      <PT t="0.2666666805744171" v="-0.5" c="0.0"/>
+      <PT t="0.2666666805744171" v="0.75" c="0.0"/>
+      <PT t="0.3661839365959167" v="0.75" c="0.0"/>
+      <PT t="0.4666666686534882" v="-0.75" c="-0.6674436926841736"/>
+      <PT t="0.6000000238418579" v="-0.75" c="0.0"/>
+      <PT t="0.6000000238418579" v="0.0" c="0.0"/>
+      <PT t="0.6666666865348816" v="0.0" c="0.0"/>
+      <PT t="0.6666666865348816" v="-0.5" c="0.0"/>
+      <PT t="0.7333333492279053" v="-0.5" c="0.0"/>
+      <PT t="0.7333333492279053" v="0.25" c="0.0"/>
+      <PT t="0.800000011920929" v="0.25" c="0.0"/>
+      <PT t="0.800000011920929" v="0.75" c="0.0"/>
+      <PT t="0.8666666746139526" v="0.75" c="0.0"/>
+      <PT t="0.8666666746139526" v="0.4498097002506256" c="0.0"/>
+      <PT t="0.9333333373069763" v="0.5622584819793701" c="0.0"/>
+      <PT t="0.9333333373069763" v="-0.25" c="0.0"/>
+      <PT t="1.0" v="-0.25" c="0.02019524946808815"/>
+      <PT t="1.0" v="0.0" c="0.0"/>
+    </mseg1>
+    <mseg2 startIndex="0" endIndex="22">
+      <PT t="0.0" v="0.0" c="0.0"/>
+      <PT t="0.0" v="-1.0" c="0.0"/>
+      <PT t="0.0833333358168602" v="-1.0" c="0.0"/>
+      <PT t="0.0833333358168602" v="0.25" c="0.0"/>
+      <PT t="0.1666666716337204" v="0.25" c="0.0"/>
+      <PT t="0.1666666716337204" v="-1.0" c="0.0"/>
+      <PT t="0.25" v="-1.0" c="0.0"/>
+      <PT t="0.25" v="0.25" c="0.0"/>
+      <PT t="0.3333333432674408" v="0.25" c="0.0"/>
+      <PT t="0.3333333432674408" v="-1.0" c="0.0"/>
+      <PT t="0.4166666567325592" v="-1.0" c="0.0"/>
+      <PT t="0.4166666567325592" v="0.25" c="0.0"/>
+      <PT t="0.5" v="0.25" c="0.0"/>
+      <PT t="0.5833333134651184" v="0.25" c="0.0"/>
+      <PT t="0.5833333134651184" v="-1.0" c="0.0"/>
+      <PT t="0.6666666865348816" v="-1.0" c="0.0"/>
+      <PT t="0.6666666865348816" v="0.25" c="0.0"/>
+      <PT t="0.75" v="0.25" c="0.0"/>
+      <PT t="0.75" v="-1.0" c="0.0"/>
+      <PT t="0.8333333134651184" v="-1.0" c="0.0"/>
+      <PT t="0.9166666865348816" v="-1.0" c="0.0"/>
+      <PT t="1.0" v="-1.0" c="0.0"/>
+      <PT t="1.0" v="0.0" c="0.0"/>
+    </mseg2>
+    <mseg3 startIndex="0" endIndex="2">
+      <PT t="0.0" v="-1.0" c="0.9506619572639465"/>
+      <PT t="1.0" v="1.0" c="1.534981369972229"/>
+      <PT t="1.0" v="-1.0" c="5.5"/>
+    </mseg3>
+    <mseg4 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg4>
+  </state>
+  <param uid="osc1volume" val="0.5399999618530273"/>
+  <param uid="osc4volume" val="0.25"/>
+  <param uid="env1attack" val="0.01000000350177288"/>
+  <param uid="env1release" val="0.09999998658895493"/>
+  <param uid="env1time" val="0.09999998658895493"/>
+  <param uid="env2attack" val="0.01000000350177288"/>
+  <param uid="env2release" val="1.992130994796753"/>
+  <param uid="env2time" val="0.09999998658895493"/>
+  <param uid="env3attack" val="0.01000000350177288"/>
+  <param uid="env3release" val="2.523425102233887"/>
+  <param uid="env3syncrepeat" val="1.0"/>
+  <param uid="env3time" val="0.09999998658895493"/>
+  <param uid="env3beat" val="8.0"/>
+  <param uid="env4attack" val="0.01000000350177288"/>
+  <param uid="env4release" val="0.06306467205286026"/>
+  <param uid="env4time" val="0.09999998658895493"/>
+  <param uid="env4beat" val="10.0"/>
+  <param uid="level" val="-8.0"/>
+  <param uid="squash" val="0.3063017129898071"/>
+  <param uid="equant" val="0.1053677797317505"/>
+  <param uid="pitch" val="1.410640954971313"/>
+  <param uid="blend" val="0.151925653219223"/>
+  <param uid="wsdrive" val="10.84330463409424"/>
+  <param uid="wswet" val="0.4043760597705841"/>
+  <param uid="wsfunc" val="5.0"/>
+  <param uid="wshighshelf" val="8538.685546875"/>
+  <param uid="cpattack" val="0.0000199999994947575"/>
+  <param uid="dlbeatsright" val="11.0"/>
+  <param uid="dlwet" val="0.3216679692268372"/>
+  <param uid="chrate" val="0.05000001192092896"/>
+  <param uid="rvsize" val="1.4921875"/>
+  <param uid="rvdecay" val="0.7109375"/>
+  <param uid="rvdamping" val="4839.970703125"/>
+  <param uid="rvlowpass" val="3671.779296875"/>
+  <param uid="rmmodfreq1" val="39.9999885559082"/>
+  <param uid="rmmodfreq2" val="39.9999885559082"/>
+  <param uid="fxa2" val="1.0"/>
+  <param uid="fxa4" val="3.0"/>
+  <param uid="fxb1" val="6.0"/>
+  <param uid="mseg1beat" val="19.0"/>
+  <param uid="mseg1depth" val="0.3349864482879639"/>
+  <param uid="mseg1xgrid" val="15.0"/>
+  <param uid="mseg1loop" val="1.0"/>
+  <param uid="mseg2beat" val="19.0"/>
+  <param uid="mseg2xgrid" val="12.0"/>
+  <param uid="mseg2loop" val="1.0"/>
+  <param uid="mseg2draw" val="1.0"/>
+  <param uid="mseg3beat" val="22.0"/>
+  <param uid="mseg3depth" val="0.3187853395938873"/>
+  <param uid="mseg3loop" val="1.0"/>
+</state>

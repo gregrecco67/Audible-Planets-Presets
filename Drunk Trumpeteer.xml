@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<state name="Drunk Trumpeteer" author="factory" tags="horns">
+  <state>
+    <instance editorScale="1.633103489875793" selectedAuthors="me" selectedTags=""
+              browserOpen="1"/>
+    <MODMATRIX>
+      <MODITEM srcId="lfo2" depth="0.2300000041723251" enabled="1" dstId="fltfreq"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="mpep" depth="0.1000000014901161" enabled="1" dstId="dltimeleft"
+               function="linear" biPolarMapping="0"/>
+      <MODITEM srcId="mlfo4" depth="0.0" enabled="1" dstId="dltimeleft" function="linear"
+               biPolarMapping="1"/>
+      <MODITEM srcId="mw" depth="-0.05000000074505806" enabled="1" dstId="dltimeleft"
+               function="linear" biPolarMapping="0"/>
+      <MODITEM srcId="mpet" depth="-0.05000000074505806" enabled="1" dstId="dltimeleft"
+               function="linear" biPolarMapping="0"/>
+      <MODITEM srcId="note" depth="-0.05000000074505806" enabled="1" dstId="dltimeleft"
+               function="linear" biPolarMapping="0"/>
+      <MODITEM srcId="mlfo4" depth="0.05000000074505806" enabled="1" dstId="dltimeright"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="lfo1" depth="0.05000000074505806" enabled="1" dstId="dltimeright"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="env3" depth="-0.05000000074505806" enabled="1" dstId="dltimeright"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="env4" depth="-0.1000000014901161" enabled="1" dstId="dltimeright"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="pb" depth="0.0" enabled="1" dstId="dltimeright" function="linear"
+               biPolarMapping="1"/>
+      <MODITEM srcId="vel" depth="0.1000000014901161" enabled="1" dstId="dltimeright"
+               function="linear" biPolarMapping="0"/>
+      <MODITEM srcId="lfo3" depth="0.05000000074505806" enabled="1" dstId="dltimeright"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="mpet" depth="0.0" enabled="1" dstId="dltimeright" function="linear"
+               biPolarMapping="0"/>
+      <MODITEM srcId="note" depth="0.05000000074505806" enabled="1" dstId="dltimeright"
+               function="linear" biPolarMapping="0"/>
+      <MODITEM srcId="note" depth="0.05000000074505806" enabled="1" dstId="dlbeatsleft"
+               function="linear" biPolarMapping="0"/>
+      <MODITEM srcId="mlfo4" depth="-0.05000000074505806" enabled="1" dstId="dlbeatsleft"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="lfo4" depth="0.05000000074505806" enabled="1" dstId="dlbeatsleft"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="lfo3" depth="-0.05000000074505806" enabled="1" dstId="dlbeatsleft"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="vel" depth="0.05000000074505806" enabled="1" dstId="dlbeatsleft"
+               function="linear" biPolarMapping="0"/>
+      <MODITEM srcId="mw" depth="-0.05000000074505806" enabled="1" dstId="dlbeatsleft"
+               function="linear" biPolarMapping="0"/>
+      <MODITEM srcId="env3" depth="-0.05000000074505806" enabled="1" dstId="dlbeatsleft"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="lfo1" depth="0.05000000074505806" enabled="1" dstId="dlbeatsleft"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="lfo1" depth="-0.05000000074505806" enabled="1" dstId="dlbeatsright"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="env3" depth="-0.05000000074505806" enabled="1" dstId="dlbeatsright"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="lfo3" depth="0.0" enabled="1" dstId="dlbeatsright" function="linear"
+               biPolarMapping="1"/>
+      <MODITEM srcId="env2" depth="0.05000000074505806" enabled="1" dstId="dlbeatsright"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="note" depth="0.05000000074505806" enabled="1" dstId="dlbeatsright"
+               function="linear" biPolarMapping="0"/>
+      <MODITEM srcId="mpep" depth="-0.05000000074505806" enabled="1" dstId="dlbeatsright"
+               function="linear" biPolarMapping="0"/>
+      <MODITEM srcId="mlfo3" depth="-0.05000000074505806" enabled="1" dstId="dlfeedback"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="mlfo4" depth="0.05000000074505806" enabled="1" dstId="dlfeedback"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="mw" depth="-0.05000000074505806" enabled="1" dstId="dlfeedback"
+               function="linear" biPolarMapping="0"/>
+      <MODITEM srcId="pb" depth="0.05000000074505806" enabled="1" dstId="dlfeedback"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="mlfo2" depth="-0.05000000074505806" enabled="1" dstId="dlfeedback"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="mlfo3" depth="0.05000000074505806" enabled="1" dstId="dlwet"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="lfo3" depth="-0.05000000074505806" enabled="1" dstId="dlwet"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="env4" depth="0.05000000074505806" enabled="1" dstId="dlwet"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="lfo1" depth="-0.1000000014901161" enabled="1" dstId="dlwet"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="mw" depth="0.05000000074505806" enabled="1" dstId="dlwet"
+               function="linear" biPolarMapping="0"/>
+      <MODITEM srcId="mlfo2" depth="-0.05000000074505806" enabled="1" dstId="chrate"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="lfo4" depth="0.05000000074505806" enabled="1" dstId="chrate"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="env3" depth="-0.1000000014901161" enabled="1" dstId="chrate"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="env4" depth="0.0" enabled="1" dstId="chrate" function="linear"
+               biPolarMapping="1"/>
+      <MODITEM srcId="lfo1" depth="-0.05000000074505806" enabled="1" dstId="chrate"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="env1" depth="-0.05000000074505806" enabled="1" dstId="chrate"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="mlfo1" depth="-0.05000000074505806" enabled="1" dstId="chrate"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="env2" depth="-0.05000000074505806" enabled="1" dstId="chrate"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="note" depth="-0.05000000074505806" enabled="1" dstId="chrate"
+               function="linear" biPolarMapping="0"/>
+      <MODITEM srcId="vel" depth="0.05000000074505806" enabled="1" dstId="chdepth"
+               function="linear" biPolarMapping="0"/>
+      <MODITEM srcId="mlfo2" depth="-0.05000000074505806" enabled="1" dstId="chdepth"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="mpep" depth="-0.1000000014901161" enabled="1" dstId="chdepth"
+               function="linear" biPolarMapping="0"/>
+      <MODITEM srcId="env4" depth="-0.05000000074505806" enabled="1" dstId="chdepth"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="pb" depth="-0.05000000074505806" enabled="1" dstId="chdepth"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="env3" depth="-0.05000000074505806" enabled="1" dstId="chdepth"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="note" depth="-0.05000000074505806" enabled="1" dstId="chdelay"
+               function="linear" biPolarMapping="0"/>
+      <MODITEM srcId="mpet" depth="0.05000000074505806" enabled="1" dstId="chdelay"
+               function="linear" biPolarMapping="0"/>
+      <MODITEM srcId="env4" depth="-0.05000000074505806" enabled="1" dstId="chfeedback"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="lfo4" depth="-0.05000000074505806" enabled="1" dstId="chfeedback"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="env3" depth="0.05000000074505806" enabled="1" dstId="chfeedback"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="mw" depth="-0.05000000074505806" enabled="1" dstId="chfeedback"
+               function="linear" biPolarMapping="0"/>
+      <MODITEM srcId="pb" depth="0.05000000074505806" enabled="1" dstId="chfeedback"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="lfo2" depth="0.05000000074505806" enabled="1" dstId="chdry"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="env3" depth="0.05000000074505806" enabled="1" dstId="chdry"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="env1" depth="-0.05000000074505806" enabled="1" dstId="chdry"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="lfo4" depth="0.05000000074505806" enabled="1" dstId="chdry"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="mlfo2" depth="-0.05000000074505806" enabled="1" dstId="chdry"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="note" depth="0.05000000074505806" enabled="1" dstId="chdry"
+               function="linear" biPolarMapping="0"/>
+      <MODITEM srcId="mpet" depth="0.05000000074505806" enabled="1" dstId="chdry"
+               function="linear" biPolarMapping="0"/>
+      <MODITEM srcId="env4" depth="-0.1000000014901161" enabled="1" dstId="chwet"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="mlfo4" depth="-0.05000000074505806" enabled="1" dstId="chwet"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="lfo1" depth="-0.05000000074505806" enabled="1" dstId="chwet"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="env1" depth="-0.05000000074505806" enabled="1" dstId="chwet"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="mlfo1" depth="0.05000000074505806" enabled="1" dstId="chwet"
+               function="linear" biPolarMapping="1"/>
+    </MODMATRIX>
+    <mseg1 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg1>
+    <mseg2 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg2>
+    <mseg3 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg3>
+    <mseg4 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg4>
+  </state>
+  <param uid="osc1coarse" val="2.0"/>
+  <param uid="osc1fine" val="1.959783434867859"/>
+  <param uid="osc1volume" val="0.2699999809265137"/>
+  <param uid="osc1tones" val="1.144000053405762"/>
+  <param uid="osc1detune" val="0.02266671694815159"/>
+  <param uid="osc1spread" val="100.0"/>
+  <param uid="osc1pan" val="0.0665363073348999"/>
+  <param uid="osc2fine" val="-0.03579747676849365"/>
+  <param uid="osc2volume" val="0.3499999940395355"/>
+  <param uid="osc2tones" val="1.021999955177307"/>
+  <param uid="osc2detune" val="0.09333337098360062"/>
+  <param uid="osc2spread" val="100.0"/>
+  <param uid="osc2pan" val="0.0992438793182373"/>
+  <param uid="osc3fine" val="-0.9835273027420044"/>
+  <param uid="osc3tones" val="1.052000045776367"/>
+  <param uid="osc3detune" val="0.08799999952316284"/>
+  <param uid="osc3spread" val="100.0"/>
+  <param uid="osc3pan" val="0.05921399593353271"/>
+  <param uid="osc4fine" val="0.9712905287742615"/>
+  <param uid="osc4volume" val="0.3400000035762787"/>
+  <param uid="osc4detune" val="0.02266662567853928"/>
+  <param uid="osc4spread" val="100.0"/>
+  <param uid="osc4pan" val="-0.02324730157852173"/>
+  <param uid="env1attack" val="0.09999998658895493"/>
+  <param uid="env1decay" val="0.09999998658895493"/>
+  <param uid="env1release" val="0.09999998658895493"/>
+  <param uid="env1time" val="0.09999998658895493"/>
+  <param uid="env2attack" val="0.09999998658895493"/>
+  <param uid="env2decay" val="0.09999998658895493"/>
+  <param uid="env2release" val="0.09999998658895493"/>
+  <param uid="env2time" val="0.09999998658895493"/>
+  <param uid="env3attack" val="0.09999998658895493"/>
+  <param uid="env3decay" val="0.09999998658895493"/>
+  <param uid="env3release" val="0.09999998658895493"/>
+  <param uid="env3time" val="0.09999998658895493"/>
+  <param uid="env4attack" val="0.09999998658895493"/>
+  <param uid="env4decay" val="0.09999998658895493"/>
+  <param uid="env4release" val="0.09999998658895493"/>
+  <param uid="env4time" val="0.09999998658895493"/>
+  <param uid="lfo2enable" val="1.0"/>
+  <param uid="lfo2beat" val="23.0"/>
+  <param uid="lfo2depth" val="0.6906670928001404"/>
+  <param uid="fltfreq" val="93.90170288085938"/>
+  <param uid="speed" val="0.1347395032644272"/>
+  <param uid="scale" val="2.58203125"/>
+  <param uid="wsdrive" val="6.106401443481445"/>
+  <param uid="wsgain" val="3.0"/>
+  <param uid="wswet" val="0.6240951418876648"/>
+  <param uid="cpthreshold" val="-19.55633926391602"/>
+  <param uid="cpratio" val="1.0"/>
+  <param uid="cpattack" val="0.0000199999994947575"/>
+  <param uid="cprelease" val="0.05000000074505806"/>
+  <param uid="cpknee" val="2.200000047683716"/>
+  <param uid="cpinput" val="2.613333463668823"/>
+  <param uid="cpoutput" val="0.9482273459434509"/>
+  <param uid="dltimeleft" val="0.9573736786842346"/>
+  <param uid="dltimeright" val="1.656486392021179"/>
+  <param uid="dlbeatsleft" val="2.0"/>
+  <param uid="dlbeatsright" val="21.0"/>
+  <param uid="dlfeedback" val="0.3450945317745209"/>
+  <param uid="dlwet" val="0.5858396887779236"/>
+  <param uid="chrate" val="0.004999999888241291"/>
+  <param uid="chdepth" val="0.3638241291046143"/>
+  <param uid="chdelay" val="18.01265144348145"/>
+  <param uid="chfeedback" val="0.285944789648056"/>
+  <param uid="chdry" val="0.7866012454032898"/>
+  <param uid="chwet" val="0.6329739093780518"/>
+  <param uid="rmmodfreq1" val="39.9999885559082"/>
+  <param uid="rmmodfreq2" val="39.9999885559082"/>
+  <param uid="fxa3" val="3.0"/>
+  <param uid="fxa4" val="4.0"/>
+</state>

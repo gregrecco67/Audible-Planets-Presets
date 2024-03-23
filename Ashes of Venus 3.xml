@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<state name="Ashes of Venus 3" author="factory" tags="keys repeating">
+  <state>
+    <instance editorScale="1.633103489875793" selectedAuthors="me" selectedTags=""
+              browserOpen="1"/>
+    <MODMATRIX>
+      <MODITEM srcId="lfo2" depth="1.0" enabled="1" dstId="osc1phase" function="linear"
+               biPolarMapping="1"/>
+      <MODITEM srcId="lfo2" depth="0.7200000286102295" enabled="1" dstId="osc2phase"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="mlfo4" depth="1.0" enabled="1" dstId="osc2tones" function="linear"
+               biPolarMapping="1"/>
+      <MODITEM srcId="lfo2" depth="1.0" enabled="1" dstId="osc3phase" function="linear"
+               biPolarMapping="1"/>
+      <MODITEM srcId="mlfo4" depth="1.0" enabled="1" dstId="osc3tones" function="linear"
+               biPolarMapping="1"/>
+      <MODITEM srcId="lfo2" depth="1.0" enabled="1" dstId="osc4phase" function="linear"
+               biPolarMapping="1"/>
+      <MODITEM srcId="lfo4" depth="0.300000011920929" enabled="1" dstId="osc4tones"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="mlfo3" depth="0.2300000041723251" enabled="1" dstId="lfo2rate"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="mlfo3" depth="1.0" enabled="1" dstId="lfo4depth" function="linear"
+               biPolarMapping="1"/>
+      <MODITEM srcId="mlfo3" depth="0.2700000107288361" enabled="1" dstId="squash"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="mlfo3" depth="0.5799999833106995" enabled="1" dstId="wsdrive"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="mlfo3" depth="-0.3300000131130219" enabled="1" dstId="wswet"
+               function="linear" biPolarMapping="1"/>
+    </MODMATRIX>
+    <mseg1 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg1>
+    <mseg2 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg2>
+    <mseg3 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg3>
+    <mseg4 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg4>
+  </state>
+  <param uid="osc1phase" val="0.7275773882865906"/>
+  <param uid="osc1tones" val="1.256999969482422"/>
+  <param uid="osc1spread" val="100.0"/>
+  <param uid="osc2coarse" val="4.0"/>
+  <param uid="osc2volume" val="0.550000011920929"/>
+  <param uid="osc2phase" val="0.2710379362106323"/>
+  <param uid="osc2tones" val="2.382999897003174"/>
+  <param uid="osc2detune" val="0.01290704309940338"/>
+  <param uid="osc2spread" val="100.0"/>
+  <param uid="osc3volume" val="0.4799999892711639"/>
+  <param uid="osc3phase" val="0.8698194622993469"/>
+  <param uid="osc3detune" val="0.07440564036369324"/>
+  <param uid="osc4volume" val="0.5399999618530273"/>
+  <param uid="env1attack" val="0.01000000350177288"/>
+  <param uid="env1decay" val="0.9221537113189697"/>
+  <param uid="env1sustain" val="0.0"/>
+  <param uid="env1release" val="0.09999998658895493"/>
+  <param uid="env1time" val="0.09999998658895493"/>
+  <param uid="env2attack" val="0.01000000350177288"/>
+  <param uid="env2decay" val="1.780264019966125"/>
+  <param uid="env2sustain" val="0.0"/>
+  <param uid="env2release" val="0.09999998658895493"/>
+  <param uid="env2syncrepeat" val="1.0"/>
+  <param uid="env2time" val="0.09999998658895493"/>
+  <param uid="env2beat" val="21.0"/>
+  <param uid="env3attack" val="0.01000000350177288"/>
+  <param uid="env3sustain" val="0.0"/>
+  <param uid="env3release" val="0.09999998658895493"/>
+  <param uid="env3syncrepeat" val="1.0"/>
+  <param uid="env3time" val="0.09999998658895493"/>
+  <param uid="env4attack" val="0.01000000350177288"/>
+  <param uid="env4decay" val="0.8097222447395325"/>
+  <param uid="env4sustain" val="21.69058799743652"/>
+  <param uid="env4release" val="0.09999998658895493"/>
+  <param uid="env4time" val="0.09999998658895493"/>
+  <param uid="lfo1beat" val="19.0"/>
+  <param uid="lfo1phase" val="0.7147122025489807"/>
+  <param uid="lfo2enable" val="1.0"/>
+  <param uid="lfo2sync" val="0.0"/>
+  <param uid="lfo2rate" val="2.892334461212158"/>
+  <param uid="lfo2beat" val="23.0"/>
+  <param uid="lfo2depth" val="0.5117028951644897"/>
+  <param uid="lfo2fade" val="3.362167358398438"/>
+  <param uid="lfo3enable" val="1.0"/>
+  <param uid="lfo3sync" val="0.0"/>
+  <param uid="lfo3rate" val="0.05110571533441544"/>
+  <param uid="lfo4enable" val="1.0"/>
+  <param uid="lfo4beat" val="22.0"/>
+  <param uid="squash" val="0.2109375"/>
+  <param uid="fltkey" val="46.19246292114258"/>
+  <param uid="fltfreq" val="104.417121887207"/>
+  <param uid="fltres" val="21.24177169799805"/>
+  <param uid="equant" val="0.01999998092651367"/>
+  <param uid="blend" val="0.1000000014901161"/>
+  <param uid="demodmix" val="0.261593371629715"/>
+  <param uid="algo" val="2.0"/>
+  <param uid="demodVol" val="2.559999942779541"/>
+  <param uid="wsdrive" val="14.10400009155273"/>
+  <param uid="wsgain" val="0.4292027652263641"/>
+  <param uid="wswet" val="0.3444506824016571"/>
+  <param uid="wshighshelf" val="7622.7763671875"/>
+  <param uid="cpattack" val="0.0000199999994947575"/>
+  <param uid="dlbeatsright" val="14.0"/>
+  <param uid="dlpingpong" val="1.0"/>
+  <param uid="dlwet" val="0.5298522114753723"/>
+  <param uid="chrate" val="0.05000001192092896"/>
+  <param uid="rvsize" val="1.389879584312439"/>
+  <param uid="rvdecay" val="0.7591007947921753"/>
+  <param uid="rvdamping" val="14436.5751953125"/>
+  <param uid="rvlowpass" val="7810.65478515625"/>
+  <param uid="rvpredelay" val="0.03369409963488579"/>
+  <param uid="rmmodfreq1" val="39.9999885559082"/>
+  <param uid="rmmodfreq2" val="39.9999885559082"/>
+  <param uid="fxa2" val="4.0"/>
+  <param uid="fxa3" val="3.0"/>
+  <param uid="fxb1" val="1.0"/>
+  <param uid="fxb2" val="6.0"/>
+</state>

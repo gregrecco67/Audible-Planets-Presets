@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<state name="Spacy Lead 5" author="me" tags="lead">
+<state name="Spacy Lead 5" author="factory" tags="lead">
   <state>
-    <instance/>
+    <instance editorScale="1.633103489875793" selectedAuthors="me" selectedTags=""
+              browserOpen="1"/>
     <MODMATRIX/>
+    <mseg1 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg1>
+    <mseg2 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg2>
+    <mseg3 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg3>
+    <mseg4 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg4>
   </state>
   <param uid="osc1spread" val="100.0"/>
   <param uid="osc1pan" val="-0.2586668729782104"/>
@@ -26,23 +47,26 @@
   <param uid="env2decay" val="15.48437690734863"/>
   <param uid="env2sustain" val="0.0"/>
   <param uid="env2release" val="60.0"/>
+  <param uid="env2time" val="0.09999998658895493"/>
   <param uid="env3attack" val="0.6653867959976196"/>
   <param uid="env3decay" val="0.0"/>
   <param uid="env3sustain" val="100.0"/>
   <param uid="env3release" val="0.0"/>
   <param uid="env3acurve" val="0.9969909191131592"/>
+  <param uid="env3time" val="0.09999998658895493"/>
   <param uid="env4attack" val="0.0"/>
   <param uid="env4decay" val="0.5098168849945068"/>
   <param uid="env4sustain" val="0.0"/>
   <param uid="env4release" val="0.1988862454891205"/>
   <param uid="env4acurve" val="-1.0"/>
+  <param uid="env4time" val="0.09999998658895493"/>
   <param uid="lfo1enable" val="1.0"/>
   <param uid="lfo2enable" val="1.0"/>
   <param uid="lfo3enable" val="1.0"/>
   <param uid="lfo3sync" val="0.0"/>
   <param uid="lfo3rate" val="0.0006272830651141703"/>
   <param uid="lfo4enable" val="1.0"/>
-  <param uid="lfo4fade" val="2.667696475982666"/>
+  <param uid="lfo4fade" val="2.667697906494141"/>
   <param uid="mono" val="1.0"/>
   <param uid="gMode" val="2.0"/>
   <param uid="gRate" val="0.05261588469147682"/>
@@ -54,7 +78,6 @@
   <param uid="blend" val="0.433552086353302"/>
   <param uid="demodmix" val="0.6408864259719849"/>
   <param uid="algo" val="2.0"/>
-  <param uid="fxgain" val="1.000001430511475"/>
   <param uid="wsdrive" val="14.01203346252441"/>
   <param uid="wsdry" val="0.7220539450645447"/>
   <param uid="cpattack" val="0.0000199999994947575"/>
@@ -62,7 +85,7 @@
   <param uid="dltemposync" val="0.0"/>
   <param uid="dlpingpong" val="1.0"/>
   <param uid="dlwet" val="0.4680794179439545"/>
-  <param uid="chrate" val="0.05499999970197678"/>
+  <param uid="chrate" val="0.05500001460313797"/>
   <param uid="rmmodfreq1" val="39.9999885559082"/>
   <param uid="rmshape1" val="0.6656175255775452"/>
   <param uid="rmmix1" val="0.04932617396116257"/>
