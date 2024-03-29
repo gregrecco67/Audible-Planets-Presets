@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<state name="Bloops Drone 2" author="factory" tags="drone">
+  <state>
+    <instance selectedAuthors="" selectedTags="" editorScale="1.368275880813599"/>
+    <MODMATRIX>
+      <MODITEM srcId="env2" depth="-0.01999999955296516" enabled="1" dstId="osc2fine"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="lfo2" depth="1.0" enabled="1" dstId="osc2fine" function="linear"
+               biPolarMapping="1"/>
+      <MODITEM srcId="env3" depth="0.03999999910593033" enabled="1" dstId="osc3fine"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="env3" depth="0.1567319184541702" enabled="1" dstId="osc4phase"
+               function="quadraticIn" biPolarMapping="1"/>
+      <MODITEM srcId="mlfo4" depth="0.1599999964237213" enabled="1" dstId="osc4detune"
+               function="invQuadraticOut" biPolarMapping="1"/>
+      <MODITEM srcId="mw" depth="0.1599999964237213" enabled="1" dstId="env1decay"
+               function="exponentialIn" biPolarMapping="0"/>
+      <MODITEM srcId="mw" depth="-0.1567319184541702" enabled="1" dstId="env3drcurve"
+               function="exponentialIn" biPolarMapping="0"/>
+      <MODITEM srcId="mlfo4" depth="-0.1567319184541702" enabled="1" dstId="lfo1depth"
+               function="invExponentialInOut" biPolarMapping="1"/>
+      <MODITEM srcId="lfo2" depth="-0.1567319184541702" enabled="1" dstId="lfo1offset"
+               function="invSineIn" biPolarMapping="1"/>
+      <MODITEM srcId="mpet" depth="-0.1599999964237213" enabled="1" dstId="lfo1fade"
+               function="linear" biPolarMapping="0"/>
+      <MODITEM srcId="mw" depth="-0.1599999964237213" enabled="1" dstId="lfo1fade"
+               function="exponentialInOut" biPolarMapping="0"/>
+      <MODITEM srcId="lfo1" depth="2.081668171172169e-17" enabled="1" dstId="lfo1delay"
+               function="exponentialIn" biPolarMapping="1"/>
+      <MODITEM srcId="mlfo3" depth="0.1599999964237213" enabled="1" dstId="lfo1delay"
+               function="sineIn" biPolarMapping="1"/>
+      <MODITEM srcId="mlfo2" depth="0.1599999964237213" enabled="1" dstId="lfo2rate"
+               function="sineIn" biPolarMapping="1"/>
+      <MODITEM srcId="lfo3" depth="1.0" enabled="1" dstId="lfo2depth" function="linear"
+               biPolarMapping="1"/>
+      <MODITEM srcId="lfo2" depth="0.1567319184541702" enabled="1" dstId="fltfreq"
+               function="quadraticIn" biPolarMapping="1"/>
+      <MODITEM srcId="mlfo3" depth="0.1599999964237213" enabled="1" dstId="equant"
+               function="exponentialOut" biPolarMapping="1"/>
+      <MODITEM srcId="lfo3" depth="0.1599999964237213" enabled="1" dstId="rmspread"
+               function="quadraticOut" biPolarMapping="1"/>
+    </MODMATRIX>
+    <mseg1 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg1>
+    <mseg2 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg2>
+    <mseg3 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg3>
+    <mseg4 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg4>
+  </state>
+  <param uid="osc1coarse" val="8.0"/>
+  <param uid="osc1detune" val="0.08434922993183136"/>
+  <param uid="osc1spread" val="81.6248779296875"/>
+  <param uid="osc2coarse" val="3.0"/>
+  <param uid="osc2fine" val="-0.8063278794288635"/>
+  <param uid="osc2detune" val="0.07522924989461899"/>
+  <param uid="osc2spread" val="100.0"/>
+  <param uid="osc3coarse" val="4.0"/>
+  <param uid="osc3volume" val="0.4799999892711639"/>
+  <param uid="osc3detune" val="0.04501275718212128"/>
+  <param uid="osc3spread" val="78.18119049072266"/>
+  <param uid="osc4coarse" val="1.0"/>
+  <param uid="osc4volume" val="0.6599999666213989"/>
+  <param uid="osc4detune" val="0.05545397847890854"/>
+  <param uid="osc4spread" val="100.0"/>
+  <param uid="env1attack" val="0.01000000350177288"/>
+  <param uid="env1release" val="0.09999998658895493"/>
+  <param uid="env1acurve" val="0.01768267154693604"/>
+  <param uid="env1time" val="0.09999998658895493"/>
+  <param uid="env2attack" val="4.834446430206299"/>
+  <param uid="env2release" val="0.09999998658895493"/>
+  <param uid="env2acurve" val="-0.09141457080841064"/>
+  <param uid="env3attack" val="24.03575325012207"/>
+  <param uid="env3release" val="0.09999998658895493"/>
+  <param uid="env3time" val="0.09999998658895493"/>
+  <param uid="env4attack" val="0.003204369451850653"/>
+  <param uid="env4decay" val="3.79117226600647"/>
+  <param uid="env4sustain" val="11.26328754425049"/>
+  <param uid="env4release" val="0.05519367381930351"/>
+  <param uid="env4acurve" val="-0.1927804946899414"/>
+  <param uid="lfo2enable" val="1.0"/>
+  <param uid="lfo2sync" val="0.0"/>
+  <param uid="lfo2rate" val="0.2618582546710968"/>
+  <param uid="lfo2depth" val="0.8118500709533691"/>
+  <param uid="lfo3enable" val="1.0"/>
+  <param uid="lfo3wave" val="7.0"/>
+  <param uid="squash" val="0.3407490253448486"/>
+  <param uid="equant" val="0.3268396258354187"/>
+  <param uid="blend" val="0.1665699481964111"/>
+  <param uid="demodmix" val="0.4602746367454529"/>
+  <param uid="fxgain" val="1.000001430511475"/>
+  <param uid="wsdrive" val="13.57738208770752"/>
+  <param uid="cpthreshold" val="-21.80263519287109"/>
+  <param uid="cpratio" val="3.349745750427246"/>
+  <param uid="cpattack" val="0.0000199999994947575"/>
+  <param uid="cpknee" val="1.090000033378601"/>
+  <param uid="cpoutput" val="1.081352233886719"/>
+  <param uid="chrate" val="0.110872246325016"/>
+  <param uid="chdepth" val="0.8336414098739624"/>
+  <param uid="chfeedback" val="0.3496532738208771"/>
+  <param uid="rvsize" val="1.157443881034851"/>
+  <param uid="rvdecay" val="0.7004073858261108"/>
+  <param uid="rvwet" val="0.2891909778118134"/>
+  <param uid="rmmodfreq1" val="39.9999885559082"/>
+  <param uid="rmmodfreq2" val="39.9999885559082"/>
+  <param uid="fxa1" val="4.0"/>
+  <param uid="fxa2" val="6.0"/>
+  <param uid="fxa3" val="2.0"/>
+  <param uid="fxa4" val="1.0"/>
+  <param uid="laneAGain" val="1.000001430511475"/>
+  <param uid="laneBGain" val="1.000001430511475"/>
+</state>
