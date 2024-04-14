@@ -2,9 +2,9 @@
 
 <state name="Ain't it sweet" author="factory" tags="keys">
   <state>
-    <instance selectedAuthors="" selectedTags="" editorScale="1.368275880813599"/>
+    <instance selectedAuthors="" selectedTags="" editorScale="1.499310374259949"/>
     <MODMATRIX>
-      <MODITEM srcId="env3" depth="0.3600000143051147" enabled="1" dstId="fltfreq"
+      <MODITEM srcId="env3" depth="0.1969999969005585" enabled="1" dstId="fltfreq"
                function="linear" biPolarMapping="1"/>
     </MODMATRIX>
     <mseg1 startIndex="0" endIndex="2">
@@ -40,30 +40,30 @@
   <param uid="env1release" val="0.09999998658895493"/>
   <param uid="env1time" val="0.09999998658895493"/>
   <param uid="env2attack" val="0.01000000350177288"/>
-  <param uid="env2decay" val="0.684641420841217"/>
-  <param uid="env2sustain" val="13.29374980926514"/>
   <param uid="env2release" val="0.09999998658895493"/>
+  <param uid="env2time" val="0.09999998658895493"/>
   <param uid="env3attack" val="0.01000000350177288"/>
-  <param uid="env3decay" val="0.6260579824447632"/>
-  <param uid="env3sustain" val="11.20468711853027"/>
   <param uid="env3release" val="0.09999998658895493"/>
   <param uid="env3time" val="0.09999998658895493"/>
   <param uid="env4attack" val="0.01000000350177288"/>
-  <param uid="env4decay" val="0.6648716926574707"/>
-  <param uid="env4sustain" val="6.626562595367432"/>
+  <param uid="env4sustain" val="50.4283332824707"/>
   <param uid="env4release" val="0.09999998658895493"/>
-  <param uid="squash" val="0.4936875104904175"/>
-  <param uid="flttype" val="1.0"/>
-  <param uid="fltfreq" val="77.57516479492188"/>
-  <param uid="fltres" val="39.05156326293945"/>
+  <param uid="env4time" val="0.09999998658895493"/>
   <param uid="blend" val="0.1845781207084656"/>
   <param uid="demodmix" val="0.255187451839447"/>
   <param uid="algo" val="1.0"/>
   <param uid="demodVol" val="3.379437446594238"/>
-  <param uid="fxgain" val="1.000001430511475"/>
+  <param uid="flttype" val="1.0"/>
+  <param uid="fltfreq" val="104.9659729003906"/>
+  <param uid="fltres" val="39.05156326293945"/>
+  <param uid="velSens" val="67.44837188720703"/>
+  <param uid="squash" val="0.4936875104904175"/>
+  <param uid="fxgain" val="1.0"/>
   <param uid="wsdrive" val="40.0"/>
   <param uid="wswet" val="0.3490936160087585"/>
   <param uid="wsfunc" val="1.0"/>
+  <param uid="wshighshelf" val="9198.185546875"/>
+  <param uid="wslp" val="3392.81982421875"/>
   <param uid="cpthreshold" val="-32.95969009399414"/>
   <param uid="cpratio" val="3.365031242370605"/>
   <param uid="cpattack" val="0.0000199999994947575"/>
@@ -71,24 +71,30 @@
   <param uid="cptype" val="2.0"/>
   <param uid="dlbeatsright" val="10.0"/>
   <param uid="dlfeedback" val="0.6640625"/>
-  <param uid="dlwet" val="0.1792500019073486"/>
+  <param uid="dlwet" val="0.2112677544355392"/>
   <param uid="chrate" val="0.1093587055802345"/>
   <param uid="chdepth" val="0.4941408336162567"/>
   <param uid="chfeedback" val="0.5391093492507935"/>
   <param uid="chwet" val="0.7549375295639038"/>
   <param uid="rvsize" val="1.591499924659729"/>
-  <param uid="rvdecay" val="0.8148437738418579"/>
+  <param uid="rvdecay" val="0.7081171870231628"/>
   <param uid="rvlowpass" val="9405.0244140625"/>
   <param uid="rvpredelay" val="0.02881406247615814"/>
-  <param uid="rvwet" val="0.2859687507152557"/>
+  <param uid="rvwet" val="0.09652893245220184"/>
+  <param uid="mblowshelffreq" val="120.0"/>
+  <param uid="mblowshelfgain" val="0.2300000041723251"/>
+  <param uid="mbhighshelffreq" val="9303.0"/>
+  <param uid="mbhighshelfgain" val="2.518319368362427"/>
+  <param uid="mbhighshelfq" val="3.176961183547974"/>
   <param uid="rmmodfreq1" val="39.9999885559082"/>
   <param uid="rmmodfreq2" val="39.9999885559082"/>
   <param uid="fxa1" val="1.0"/>
   <param uid="fxa2" val="2.0"/>
+  <param uid="fxa3" val="5.0"/>
   <param uid="fxa4" val="3.0"/>
   <param uid="fxb2" val="4.0"/>
   <param uid="fxb4" val="6.0"/>
   <param uid="chainAtoB" val="0.0"/>
-  <param uid="laneAGain" val="6.168749809265137"/>
-  <param uid="laneBGain" val="1.000001430511475"/>
+  <param uid="laneAGain" val="6.168746948242188"/>
+  <param uid="laneBGain" val="1.0"/>
 </state>

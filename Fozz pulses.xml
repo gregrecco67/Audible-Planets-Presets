@@ -2,8 +2,7 @@
 
 <state name="Fozz pulses" author="factory" tags="fuzz">
   <state>
-    <instance editorScale="1.633103489875793" selectedAuthors="me" selectedTags=""
-              browserOpen="1"/>
+    <instance selectedAuthors="" selectedTags=""/>
     <MODMATRIX>
       <MODITEM srcId="env3" depth="1.0" enabled="1" dstId="osc1detune" function="linear"
                biPolarMapping="1"/>
@@ -68,6 +67,9 @@
   <param uid="level" val="9.0"/>
   <param uid="fltfreq" val="93.37908172607422"/>
   <param uid="demodmix" val="0.4239999949932098"/>
+  <param uid="fxgain" val="3.814697265625e-6"/>
+  <param uid="wswet" val="0.2262077629566193"/>
+  <param uid="wsfunc" val="13.0"/>
   <param uid="cpattack" val="0.0000199999994947575"/>
   <param uid="chrate" val="0.05000001192092896"/>
   <param uid="chwet" val="0.1679999977350235"/>
@@ -81,5 +83,8 @@
   <param uid="rmhighcut" val="5876.19970703125"/>
   <param uid="fxa1" val="4.0"/>
   <param uid="fxa2" val="7.0"/>
+  <param uid="fxb1" val="1.0"/>
   <param uid="chainAtoB" val="0.0"/>
+  <param uid="laneAGain" val="3.814697265625e-6"/>
+  <param uid="laneBGain" val="3.814697265625e-6"/>
 </state>

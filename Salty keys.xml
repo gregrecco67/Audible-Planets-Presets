@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<state name="Salty keys" author="factory" tags="keys inharmonic">
+  <state>
+    <instance selectedAuthors="" selectedTags="" editorScale="1.499310374259949"/>
+    <MODMATRIX>
+      <MODITEM srcId="lfo2" depth="1.0" enabled="1" dstId="osc2phase" function="linear"
+               biPolarMapping="1"/>
+      <MODITEM srcId="lfo1" depth="1.0" enabled="1" dstId="osc3phase" function="linear"
+               biPolarMapping="1"/>
+      <MODITEM srcId="lfo1" depth="1.0" enabled="1" dstId="osc4phase" function="linear"
+               biPolarMapping="1"/>
+      <MODITEM srcId="env2" depth="0.2560000121593475" enabled="1" dstId="fltfreq"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="env4" depth="0.3226666748523712" enabled="1" dstId="fltfreq"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="vel" depth="0.3466666638851166" enabled="1" dstId="fltfreq"
+               function="linear" biPolarMapping="0"/>
+    </MODMATRIX>
+    <mseg1 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg1>
+    <mseg2 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg2>
+    <mseg3 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg3>
+    <mseg4 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg4>
+  </state>
+  <param uid="osc1volume" val="1.0"/>
+  <param uid="osc2fine" val="0.03999996185302734"/>
+  <param uid="osc2volume" val="0.8499999642372131"/>
+  <param uid="osc3volume" val="0.4399999976158142"/>
+  <param uid="osc3phase" val="0.6779999732971191"/>
+  <param uid="osc3saw" val="1.0"/>
+  <param uid="osc4coarse" val="13.0"/>
+  <param uid="osc4fine" val="0.07125496864318848"/>
+  <param uid="osc4volume" val="0.1299999952316284"/>
+  <param uid="osc4fixed" val="1.0"/>
+  <param uid="env1attack" val="0.0"/>
+  <param uid="env1decay" val="2.900000095367432"/>
+  <param uid="env1sustain" val="0.0"/>
+  <param uid="env1release" val="0.0"/>
+  <param uid="env1time" val="0.09999998658895493"/>
+  <param uid="env2attack" val="0.0"/>
+  <param uid="env2decay" val="0.06000005081295967"/>
+  <param uid="env2sustain" val="44.0"/>
+  <param uid="env2release" val="0.09999998658895493"/>
+  <param uid="env2time" val="0.09999998658895493"/>
+  <param uid="env3attack" val="0.0"/>
+  <param uid="env3decay" val="1.999999403953552"/>
+  <param uid="env3sustain" val="59.79999923706055"/>
+  <param uid="env3release" val="0.09999998658895493"/>
+  <param uid="env3time" val="0.09999998658895493"/>
+  <param uid="env4attack" val="0.0"/>
+  <param uid="env4decay" val="0.4329999983310699"/>
+  <param uid="env4sustain" val="0.0"/>
+  <param uid="env4release" val="0.0"/>
+  <param uid="env4time" val="0.09999998658895493"/>
+  <param uid="lfo1enable" val="1.0"/>
+  <param uid="lfo1sync" val="0.0"/>
+  <param uid="lfo1rate" val="0.6602247357368469"/>
+  <param uid="lfo1beat" val="0.0"/>
+  <param uid="lfo1depth" val="0.06400000303983688"/>
+  <param uid="lfo2enable" val="1.0"/>
+  <param uid="lfo2sync" val="0.0"/>
+  <param uid="lfo2rate" val="0.5123482346534729"/>
+  <param uid="lfo2depth" val="0.5120000243186951"/>
+  <param uid="equant" val="0.1439999938011169"/>
+  <param uid="demodmix" val="0.2560000121593475"/>
+  <param uid="fltres" val="31.20000076293945"/>
+  <param uid="fxgain" val="3.814697265625e-6"/>
+  <param uid="chrate" val="0.05000001192092896"/>
+  <param uid="rvsize" val="0.5624205470085144"/>
+  <param uid="rvdamping" val="10109.7294921875"/>
+  <param uid="rvlowpass" val="6699.13671875"/>
+  <param uid="rvpredelay" val="0.0663028210401535"/>
+  <param uid="rvwet" val="0.09067275375127792"/>
+  <param uid="rmmodfreq1" val="39.9999885559082"/>
+  <param uid="rmmodfreq2" val="39.9999885559082"/>
+  <param uid="fxa1" val="6.0"/>
+  <param uid="laneAGain" val="3.814697265625e-6"/>
+  <param uid="laneBGain" val="3.814697265625e-6"/>
+</state>

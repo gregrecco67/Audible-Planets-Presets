@@ -2,8 +2,7 @@
 
 <state name="Bass Growler" author="factory" tags="bass">
   <state>
-    <instance editorScale="1.633103489875793" selectedAuthors="me" selectedTags=""
-              browserOpen="1"/>
+    <instance selectedAuthors="" selectedTags=""/>
     <MODMATRIX/>
     <mseg1 startIndex="0" endIndex="2">
       <PT t="0.0" v="0.0" c="5.5"/>
@@ -37,27 +36,30 @@
   <param uid="env1attack" val="0.0"/>
   <param uid="env1decay" val="0.1165915504097939"/>
   <param uid="env1sustain" val="2.003124952316284"/>
-  <param uid="env1release" val="0.0"/>
+  <param uid="env1release" val="0.001138807740062475"/>
   <param uid="env1time" val="0.09999998658895493"/>
   <param uid="env2attack" val="0.0"/>
   <param uid="env2decay" val="1.202640414237976"/>
   <param uid="env2sustain" val="0.0"/>
-  <param uid="env2release" val="0.0"/>
+  <param uid="env2release" val="0.006542707793414593"/>
   <param uid="env2time" val="0.09999998658895493"/>
   <param uid="env3attack" val="0.0"/>
   <param uid="env3decay" val="1.135714411735535"/>
   <param uid="env3sustain" val="0.0"/>
-  <param uid="env3release" val="0.0"/>
+  <param uid="env3release" val="0.006023712456226349"/>
   <param uid="env3time" val="0.09999998658895493"/>
   <param uid="env4attack" val="0.0"/>
   <param uid="env4decay" val="0.0"/>
-  <param uid="env4release" val="0.0"/>
+  <param uid="env4release" val="0.004661023151129484"/>
   <param uid="env4time" val="0.09999998658895493"/>
   <param uid="fltfreq" val="96.00965118408203"/>
   <param uid="fltres" val="39.60468673706055"/>
-  <param uid="wsdrive" val="15.5920934677124"/>
+  <param uid="fxgain" val="3.814697265625e-6"/>
+  <param uid="wsdrive" val="27.32955932617188"/>
   <param uid="wswet" val="1.0"/>
-  <param uid="wsfunc" val="5.0"/>
+  <param uid="wsfunc" val="6.0"/>
+  <param uid="wshighshelf" val="8100.80908203125"/>
+  <param uid="wshsq" val="1.547219634056091"/>
   <param uid="cpattack" val="0.0000199999994947575"/>
   <param uid="chrate" val="0.05500001460313797"/>
   <param uid="mblowshelffreq" val="291.0"/>
@@ -70,4 +72,6 @@
   <param uid="fxa1" val="1.0"/>
   <param uid="fxb1" val="5.0"/>
   <param uid="chainAtoB" val="0.0"/>
+  <param uid="laneAGain" val="3.814697265625e-6"/>
+  <param uid="laneBGain" val="3.814697265625e-6"/>
 </state>
