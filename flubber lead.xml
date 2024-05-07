@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<state name="flubber lead" author="factory" tags="experimental">
+  <state>
+    <instance/>
+    <MODMATRIX>
+      <MODITEM srcId="lfo1" depth="1.0" enabled="1" dstId="osc1volume" function="linear"
+               biPolarMapping="1"/>
+      <MODITEM srcId="lfo2" depth="0.3019374907016754" enabled="1" dstId="osc2fine"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="lfo2" depth="0.05000001192092896" enabled="1" dstId="osc2volume"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="lfo1" depth="1.0" enabled="1" dstId="osc4volume" function="linear"
+               biPolarMapping="1"/>
+      <MODITEM srcId="lfo1" depth="0.71875" enabled="1" dstId="lfo2rate" function="linear"
+               biPolarMapping="1"/>
+    </MODMATRIX>
+    <mseg1 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg1>
+    <mseg2 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg2>
+    <mseg3 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg3>
+    <mseg4 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg4>
+  </state>
+  <param uid="osc1volume" val="0.2599999904632568"/>
+  <param uid="osc1spread" val="100.0"/>
+  <param uid="osc2volume" val="0.9199999570846558"/>
+  <param uid="osc2detune" val="0.04600000008940697"/>
+  <param uid="osc2spread" val="8.0"/>
+  <param uid="osc3volume" val="0.3199999928474426"/>
+  <param uid="osc4volume" val="0.25"/>
+  <param uid="env2sustain" val="95.59999847412109"/>
+  <param uid="lfo1enable" val="1.0"/>
+  <param uid="lfo1beat" val="24.0"/>
+  <param uid="lfo1depth" val="-0.3120000064373016"/>
+  <param uid="lfo2enable" val="1.0"/>
+  <param uid="lfo2sync" val="0.0"/>
+  <param uid="lfo2rate" val="5.546683788299561"/>
+  <param uid="squash" val="0.7239999771118164"/>
+  <param uid="flttype" val="1.0"/>
+  <param uid="fltfreq" val="108.5076217651367"/>
+  <param uid="fltres" val="20.79999923706055"/>
+  <param uid="demodmix" val="0.5920000076293945"/>
+  <param uid="wsdrive" val="13.74400234222412"/>
+  <param uid="wsfunc" val="9.0"/>
+  <param uid="rvsize" val="1.472000002861023"/>
+  <param uid="rvdecay" val="0.699999988079071"/>
+  <param uid="rvlowpass" val="4533.6591796875"/>
+  <param uid="rvpredelay" val="0.03319999948143959"/>
+  <param uid="rvwet" val="0.07600000500679016"/>
+  <param uid="fxa1" val="1.0"/>
+  <param uid="fxa2" val="2.0"/>
+  <param uid="fxa3" val="6.0"/>
+  <param uid="laneBGain" val="-13.59999847412109"/>
+</state>

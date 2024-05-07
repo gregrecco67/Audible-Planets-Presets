@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <state name="Drunk Trumpeteer" author="factory" tags="horns">
-  <state>
-    <instance editorScale="1.633103489875793" selectedAuthors="me" selectedTags=""
-              browserOpen="1"/>
+  <state sample="">
+    <instance selectedAuthors="" selectedTags=""/>
     <MODMATRIX>
       <MODITEM srcId="lfo2" depth="0.2300000041723251" enabled="1" dstId="fltfreq"
                function="linear" biPolarMapping="1"/>
@@ -172,6 +171,7 @@
       <PT t="0.5" v="1.0" c="5.5"/>
       <PT t="1.0" v="0.0" c="5.5"/>
     </mseg4>
+    <sample/>
   </state>
   <param uid="osc1coarse" val="2.0"/>
   <param uid="osc1fine" val="1.959783434867859"/>
@@ -216,8 +216,10 @@
   <param uid="lfo2beat" val="23.0"/>
   <param uid="lfo2depth" val="0.6906670928001404"/>
   <param uid="fltfreq" val="93.90170288085938"/>
+  <param uid="auxvolume" val="-11.99999809265137"/>
   <param uid="speed" val="0.1347395032644272"/>
   <param uid="scale" val="2.58203125"/>
+  <param uid="fxgain" val="3.814697265625e-6"/>
   <param uid="wsdrive" val="6.106401443481445"/>
   <param uid="wsgain" val="3.0"/>
   <param uid="wswet" val="0.6240951418876648"/>
@@ -244,4 +246,6 @@
   <param uid="rmmodfreq2" val="39.9999885559082"/>
   <param uid="fxa3" val="3.0"/>
   <param uid="fxa4" val="4.0"/>
+  <param uid="laneAGain" val="3.814697265625e-6"/>
+  <param uid="laneBGain" val="3.814697265625e-6"/>
 </state>

@@ -1,22 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <state name="Have One On Me" author="" tags="request">
-  <state>
-    <instance editorScale="1.499310374259949" browserOpen="0" selectedAuthors="me"
-              selectedTags="" selectedPresets=""/>
+  <state sample="">
+    <instance selectedAuthors="" selectedTags=""/>
     <MODMATRIX>
-      <MODITEM srcId="lfo3" depth="0.09000000357627869" enabled="1" dstId="osc2fine"/>
-      <MODITEM srcId="lfo3" depth="0.09000000357627869" enabled="1" dstId="osc3fine"/>
-      <MODITEM srcId="lfo3" depth="0.09000000357627869" enabled="1" dstId="osc4fine"/>
-      <MODITEM srcId="env3" depth="0.01999999955296516" enabled="1" dstId="lfo3depth"/>
-      <MODITEM srcId="env2" depth="0.3700000047683716" enabled="1" dstId="fltfreq"/>
+      <MODITEM srcId="lfo3" depth="0.09000000357627869" enabled="1" dstId="osc2fine"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="lfo3" depth="0.09000000357627869" enabled="1" dstId="osc3fine"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="lfo3" depth="0.09000000357627869" enabled="1" dstId="osc4fine"
+               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="env3" depth="0.01999999955296516" enabled="1" dstId="lfo3depth"
+               function="linear" biPolarMapping="0"/>
+      <MODITEM srcId="env2" depth="0.3700000047683716" enabled="1" dstId="fltfreq"
+               function="linear" biPolarMapping="0"/>
     </MODMATRIX>
+    <mseg1 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg1>
+    <mseg2 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg2>
+    <mseg3 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg3>
+    <mseg4 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg4>
+    <sample/>
   </state>
   <param uid="osc1phase" val="0.449417382478714"/>
   <param uid="osc2volume" val="0.3299999833106995"/>
   <param uid="osc2phase" val="0.5081169605255127"/>
-  <param uid="osc2env" val="0.0"/>
   <param uid="osc2saw" val="1.0"/>
+  <param uid="osc2env" val="0.0"/>
   <param uid="osc3coarse" val="4.0"/>
   <param uid="osc3volume" val="0.2599999904632568"/>
   <param uid="osc3env" val="0.0"/>
@@ -49,13 +74,15 @@
   <param uid="lfo3enable" val="1.0"/>
   <param uid="lfo3beat" val="9.0"/>
   <param uid="lfo3depth" val="0.0"/>
+  <param uid="demodmix" val="0.4156716465950012"/>
+  <param uid="fltfreq" val="84.54825592041016"/>
+  <param uid="fltres" val="61.36782073974609"/>
+  <param uid="auxvolume" val="-11.99999809265137"/>
   <param uid="mono" val="1.0"/>
   <param uid="gMode" val="2.0"/>
   <param uid="gRate" val="0.1501420140266418"/>
   <param uid="legato" val="1.0"/>
-  <param uid="fltfreq" val="84.54825592041016"/>
-  <param uid="fltres" val="61.36782073974609"/>
-  <param uid="demodmix" val="0.4156716465950012"/>
+  <param uid="fxgain" val="3.814697265625e-6"/>
   <param uid="wsdrive" val="7.659744739532471"/>
   <param uid="cpattack" val="0.0000199999994947575"/>
   <param uid="chrate" val="0.05000001192092896"/>
@@ -64,4 +91,6 @@
   <param uid="fxa1" val="1.0"/>
   <param uid="fxa2" val="4.0"/>
   <param uid="fxa3" val="6.0"/>
+  <param uid="laneAGain" val="3.814697265625e-6"/>
+  <param uid="laneBGain" val="3.814697265625e-6"/>
 </state>

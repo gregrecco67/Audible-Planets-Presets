@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<state name="Fat Bass 2" author="factory" tags="bass">
+  <state sample="">
+    <instance selectedAuthors="" selectedTags=""/>
+    <MODMATRIX>
+      <MODITEM srcId="lfo3" depth="0.6650000214576721" enabled="1" dstId="osc3volume"
+               function="linear" biPolarMapping="0"/>
+      <MODITEM srcId="lfo4" depth="0.5799999833106995" enabled="1" dstId="osc4volume"
+               function="linear" biPolarMapping="0"/>
+      <MODITEM srcId="lfo4" depth="0.1599999964237213" enabled="1" dstId="auxfiltercutoff"
+               function="linear" biPolarMapping="1"/>
+    </MODMATRIX>
+    <mseg1 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg1>
+    <mseg2 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg2>
+    <mseg3 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg3>
+    <mseg4 startIndex="0" endIndex="2">
+      <PT t="0.0" v="0.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="1.0" v="0.0" c="5.5"/>
+    </mseg4>
+    <sample/>
+  </state>
+  <param uid="osc1volume" val="0.8199999928474426"/>
+  <param uid="osc1detune" val="0.07400000095367432"/>
+  <param uid="osc1spread" val="100.0"/>
+  <param uid="osc1saw" val="1.0"/>
+  <param uid="osc2volume" val="0.7599999904632568"/>
+  <param uid="osc2detune" val="0.04600000008940697"/>
+  <param uid="osc2spread" val="100.0"/>
+  <param uid="osc3coarse" val="6.0"/>
+  <param uid="osc3volume" val="0.0"/>
+  <param uid="osc4volume" val="0.02999999932944775"/>
+  <param uid="env1attack" val="0.1650597900152206"/>
+  <param uid="env1release" val="0.09999998658895493"/>
+  <param uid="env1time" val="0.09999998658895493"/>
+  <param uid="env2attack" val="0.01000000350177288"/>
+  <param uid="env2release" val="0.09999998658895493"/>
+  <param uid="env2time" val="0.09999998658895493"/>
+  <param uid="env3attack" val="0.01000000350177288"/>
+  <param uid="env3release" val="0.09999998658895493"/>
+  <param uid="env3time" val="0.09999998658895493"/>
+  <param uid="env4attack" val="0.08223830163478851"/>
+  <param uid="env4release" val="0.09999998658895493"/>
+  <param uid="env4time" val="0.09999998658895493"/>
+  <param uid="lfo3enable" val="1.0"/>
+  <param uid="lfo3beat" val="22.0"/>
+  <param uid="lfo4enable" val="1.0"/>
+  <param uid="lfo4beat" val="22.0"/>
+  <param uid="lfo4phase" val="0.5040000677108765"/>
+  <param uid="auxenable" val="1.0"/>
+  <param uid="auxwave" val="1.0"/>
+  <param uid="auxvolume" val="12.0"/>
+  <param uid="auxdetune" val="0.2119999825954437"/>
+  <param uid="auxspread" val="100.0"/>
+  <param uid="auxfiltercutoff" val="101.4836578369141"/>
+  <param uid="auxres" val="43.59999847412109"/>
+  <param uid="velSens" val="0.0"/>
+  <param uid="level" val="-11.0"/>
+  <param uid="fxgain" val="3.814697265625e-6"/>
+  <param uid="wsdrive" val="21.36000061035156"/>
+  <param uid="wswet" val="0.8659999966621399"/>
+  <param uid="wsfunc" val="15.0"/>
+  <param uid="chrate" val="0.05000001192092896"/>
+  <param uid="rmmodfreq1" val="39.9999885559082"/>
+  <param uid="rmmodfreq2" val="39.9999885559082"/>
+  <param uid="fxa1" val="1.0"/>
+  <param uid="fxb1" val="6.0"/>
+  <param uid="chainAtoB" val="0.0"/>
+  <param uid="laneAGain" val="5.200004577636719"/>
+  <param uid="laneBGain" val="3.814697265625e-6"/>
+  <param uid="laneAFreq" val="90.01429748535156"/>
+  <param uid="laneARes" val="34.0"/>
+  <param uid="laneAPrePost" val="1.0"/>
+</state>

@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <state name="Evolving Crania" author="factory" tags="evolving inharmonic">
-  <state>
-    <instance editorScale="1.633103489875793" selectedAuthors="me" selectedTags=""
-              browserOpen="1"/>
+  <state sample="">
+    <instance selectedAuthors="" selectedTags=""/>
     <MODMATRIX>
       <MODITEM srcId="mlfo3" depth="1.0" enabled="1" dstId="osc1phase" function="linear"
                biPolarMapping="1"/>
@@ -40,6 +39,7 @@
       <PT t="0.5" v="1.0" c="5.5"/>
       <PT t="1.0" v="0.0" c="5.5"/>
     </mseg4>
+    <sample/>
   </state>
   <param uid="osc1fine" val="1.407999992370605"/>
   <param uid="osc1volume" val="0.7400000095367432"/>
@@ -97,15 +97,17 @@
   <param uid="lfo3enable" val="1.0"/>
   <param uid="lfo3beat" val="22.0"/>
   <param uid="lfo3depth" val="0.4720000028610229"/>
-  <param uid="velSens" val="66.67437744140625"/>
-  <param uid="sidechain" val="1.0"/>
-  <param uid="squash" val="0.3406071364879608"/>
   <param uid="equant" val="0.1040000319480896"/>
   <param uid="blend" val="0.2401405572891235"/>
   <param uid="demodmix" val="0.4920000433921814"/>
   <param uid="algo" val="1.0"/>
+  <param uid="auxvolume" val="-11.99999809265137"/>
+  <param uid="velSens" val="66.67437744140625"/>
+  <param uid="squash" val="0.3406071364879608"/>
+  <param uid="sidechain" val="1.0"/>
+  <param uid="fxgain" val="3.814697265625e-6"/>
   <param uid="wsdrive" val="34.16144561767578"/>
-  <param uid="wsgain" val="0.2649493217468262"/>
+  <param uid="wsgain" val="0.2649497985839844"/>
   <param uid="wswet" val="0.9263138771057129"/>
   <param uid="wsfunc" val="1.0"/>
   <param uid="cpattack" val="0.0000199999994947575"/>
@@ -128,4 +130,6 @@
   <param uid="fxb3" val="7.0"/>
   <param uid="fxb4" val="3.0"/>
   <param uid="chainAtoB" val="0.0"/>
+  <param uid="laneAGain" val="3.814697265625e-6"/>
+  <param uid="laneBGain" val="3.814697265625e-6"/>
 </state>

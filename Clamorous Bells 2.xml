@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <state name="Clamorous Bells 2" author="factory" tags="bells pad repeating">
-  <state>
-    <instance editorScale="1.633103489875793" selectedAuthors="me" selectedTags=""
-              browserOpen="1"/>
+  <state sample="">
+    <instance selectedAuthors="" selectedTags=""/>
     <MODMATRIX/>
     <mseg1 startIndex="0" endIndex="2">
       <PT t="0.0" v="0.0" c="5.5"/>
@@ -25,6 +24,7 @@
       <PT t="0.5" v="1.0" c="5.5"/>
       <PT t="1.0" v="0.0" c="5.5"/>
     </mseg4>
+    <sample/>
   </state>
   <param uid="osc1detune" val="0.0134818721562624"/>
   <param uid="osc1spread" val="100.0"/>
@@ -68,18 +68,22 @@
   <param uid="lfo3beat" val="16.0"/>
   <param uid="lfo3depth" val="0.5208622813224792"/>
   <param uid="lfo4beat" val="16.0"/>
-  <param uid="level" val="10.0"/>
-  <param uid="fltkey" val="90.33613586425781"/>
-  <param uid="fltfreq" val="78.33193206787109"/>
-  <param uid="fltres" val="28.69229698181152"/>
   <param uid="equant" val="0.1975987553596497"/>
   <param uid="blend" val="0.1915915161371231"/>
   <param uid="demodmix" val="0.2544429898262024"/>
   <param uid="algo" val="2.0"/>
+  <param uid="fltkey" val="90.33613586425781"/>
+  <param uid="fltfreq" val="78.33193206787109"/>
+  <param uid="fltres" val="28.69229698181152"/>
+  <param uid="auxvolume" val="-11.99999809265137"/>
+  <param uid="level" val="10.0"/>
   <param uid="scale" val="2.922109365463257"/>
+  <param uid="fxgain" val="3.814697265625e-6"/>
   <param uid="cpattack" val="0.0000199999994947575"/>
   <param uid="chrate" val="0.05500001460313797"/>
   <param uid="rmmodfreq1" val="6381.98779296875"/>
   <param uid="rmmodfreq2" val="39.9999885559082"/>
   <param uid="fxa1" val="2.0"/>
+  <param uid="laneAGain" val="3.814697265625e-6"/>
+  <param uid="laneBGain" val="3.814697265625e-6"/>
 </state>

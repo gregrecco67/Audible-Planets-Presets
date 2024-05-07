@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <state name="Chromatic Bass" author="factory" tags="bass">
-  <state>
-    <instance selectedAuthors="" selectedTags="" editorScale="1.368275880813599"/>
+  <state sample="">
+    <instance selectedAuthors="" selectedTags=""/>
     <MODMATRIX>
       <MODITEM srcId="env3" depth="1.0" enabled="1" dstId="fltfreq" function="linear"
                biPolarMapping="1"/>
@@ -31,6 +31,7 @@
       <PT t="0.5" v="1.0" c="5.5"/>
       <PT t="1.0" v="0.0" c="5.5"/>
     </mseg4>
+    <sample/>
   </state>
   <param uid="osc1coarse" val="2.0"/>
   <param uid="osc1tones" val="2.134000062942505"/>
@@ -44,7 +45,7 @@
   <param uid="osc2spread" val="100.0"/>
   <param uid="osc2env" val="3.0"/>
   <param uid="osc3volume" val="0.85999995470047"/>
-  <param uid="osc3tones" val="4.384000301361084"/>
+  <param uid="osc3tones" val="4.383999824523926"/>
   <param uid="osc3detune" val="0.07702343910932541"/>
   <param uid="osc3spread" val="87.671875"/>
   <param uid="osc3env" val="3.0"/>
@@ -58,6 +59,7 @@
   <param uid="env1time" val="0.09999998658895493"/>
   <param uid="env2attack" val="0.01000000350177288"/>
   <param uid="env2release" val="0.09999998658895493"/>
+  <param uid="env2time" val="0.09999998658895493"/>
   <param uid="env3attack" val="0.0"/>
   <param uid="env3decay" val="1.78153657913208"/>
   <param uid="env3sustain" val="11.55937480926514"/>
@@ -66,10 +68,12 @@
   <param uid="env4attack" val="0.01000000350177288"/>
   <param uid="env4sustain" val="100.0"/>
   <param uid="env4release" val="0.09999998658895493"/>
-  <param uid="fltfreq" val="10.77996921539307"/>
+  <param uid="env4time" val="0.09999998658895493"/>
   <param uid="equant" val="0.2387343794107437"/>
   <param uid="algo" val="1.0"/>
-  <param uid="fxgain" val="1.000001430511475"/>
+  <param uid="fltfreq" val="10.77996921539307"/>
+  <param uid="auxvolume" val="-11.99999809265137"/>
+  <param uid="fxgain" val="1.0"/>
   <param uid="wsdrive" val="14.50374984741211"/>
   <param uid="cpratio" val="2.576531171798706"/>
   <param uid="cpattack" val="0.0000199999994947575"/>
@@ -96,6 +100,6 @@
   <param uid="fxa4" val="2.0"/>
   <param uid="fxb2" val="4.0"/>
   <param uid="chainAtoB" val="0.0"/>
-  <param uid="laneAGain" val="1.000001430511475"/>
+  <param uid="laneAGain" val="1.0"/>
   <param uid="laneBGain" val="15.0546875"/>
 </state>

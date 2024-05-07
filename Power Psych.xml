@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <state name="Power Psych" author="factory" tags="pad mpe">
-  <state>
-    <instance editorScale="1.633103489875793" selectedAuthors="me" selectedTags=""
-              browserOpen="1"/>
+  <state sample="">
+    <instance selectedAuthors="" selectedTags=""/>
     <MODMATRIX>
       <MODITEM srcId="mlfo2" depth="0.4399999976158142" enabled="1" dstId="osc2phase"
                function="linear" biPolarMapping="1"/>
@@ -32,6 +31,7 @@
       <PT t="0.5" v="1.0" c="5.5"/>
       <PT t="1.0" v="0.0" c="5.5"/>
     </mseg4>
+    <sample/>
   </state>
   <param uid="osc1phase" val="0.05390626192092896"/>
   <param uid="osc1tones" val="3.064000129699707"/>
@@ -61,15 +61,16 @@
   <param uid="env4time" val="0.09999998658895493"/>
   <param uid="lfo2enable" val="1.0"/>
   <param uid="lfo2beat" val="23.0"/>
+  <param uid="algo" val="1.0"/>
+  <param uid="fltfreq" val="33.24141311645508"/>
+  <param uid="auxvolume" val="-11.99999809265137"/>
+  <param uid="velSens" val="65.25468444824219"/>
   <param uid="gRate" val="0.5343131422996521"/>
   <param uid="level" val="-8.0"/>
-  <param uid="velSens" val="65.25468444824219"/>
   <param uid="mpe" val="1.0"/>
-  <param uid="fltfreq" val="33.24141311645508"/>
-  <param uid="algo" val="1.0"/>
   <param uid="fxgain" val="-12.69766616821289"/>
   <param uid="wsdrive" val="40.0"/>
-  <param uid="wsgain" val="1.253556847572327"/>
+  <param uid="wsgain" val="1.253557205200195"/>
   <param uid="wswet" val="1.0"/>
   <param uid="wsfunc" val="5.0"/>
   <param uid="cpattack" val="0.0000199999994947575"/>
@@ -90,5 +91,6 @@
   <param uid="fxb3" val="3.0"/>
   <param uid="fxb4" val="6.0"/>
   <param uid="chainAtoB" val="0.0"/>
+  <param uid="laneAGain" val="3.814697265625e-6"/>
   <param uid="laneBGain" val="7.574996948242188"/>
 </state>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <state name="Crunchy Pad" author="factory" tags="pad">
-  <state>
-    <instance selectedAuthors="" selectedTags="" editorScale="1.368275880813599"/>
+  <state sample="">
+    <instance selectedAuthors="" selectedTags=""/>
     <MODMATRIX>
       <MODITEM srcId="note" depth="0.1823193281888962" enabled="1" dstId="osc4fine"
                function="linear" biPolarMapping="0"/>
@@ -27,6 +27,7 @@
       <PT t="0.5" v="1.0" c="5.5"/>
       <PT t="1.0" v="0.0" c="5.5"/>
     </mseg4>
+    <sample/>
   </state>
   <param uid="osc1coarse" val="2.0"/>
   <param uid="osc1volume" val="0.1499999910593033"/>
@@ -47,6 +48,7 @@
   <param uid="env2decay" val="5.277539730072021"/>
   <param uid="env2sustain" val="40.9453125"/>
   <param uid="env2release" val="31.37910270690918"/>
+  <param uid="env2time" val="0.09999998658895493"/>
   <param uid="env3attack" val="1.201615452766418"/>
   <param uid="env3sustain" val="100.0"/>
   <param uid="env3release" val="60.0"/>
@@ -54,11 +56,13 @@
   <param uid="env4attack" val="0.8611611723899841"/>
   <param uid="env4sustain" val="100.0"/>
   <param uid="env4release" val="3.00571346282959"/>
+  <param uid="env4time" val="0.09999998658895493"/>
+  <param uid="algo" val="1.0"/>
   <param uid="fltkey" val="96.91093444824219"/>
   <param uid="fltfreq" val="89.29725646972656"/>
   <param uid="fltres" val="23.80781173706055"/>
-  <param uid="algo" val="1.0"/>
-  <param uid="fxgain" val="1.000001430511475"/>
+  <param uid="auxvolume" val="-11.99999809265137"/>
+  <param uid="fxgain" val="1.0"/>
   <param uid="wshighshelf" val="8881.16015625"/>
   <param uid="wshsq" val="1.510125160217285"/>
   <param uid="cpattack" val="0.0000199999994947575"/>
@@ -72,6 +76,6 @@
   <param uid="fxa1" val="1.0"/>
   <param uid="fxa3" val="6.0"/>
   <param uid="fxa4" val="5.0"/>
-  <param uid="laneAGain" val="1.000001430511475"/>
-  <param uid="laneBGain" val="1.000001430511475"/>
+  <param uid="laneAGain" val="1.0"/>
+  <param uid="laneBGain" val="1.0"/>
 </state>
