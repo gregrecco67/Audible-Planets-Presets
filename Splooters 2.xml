@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <state name="Splooters 2" author="factory" tags="soundfx evolving">
-  <state>
-    <instance editorScale="1.633103489875793" selectedAuthors="me" selectedTags=""
-              browserOpen="1"/>
+  <state sample="">
+    <instance selectedAuthors="" selectedTags=""/>
     <MODMATRIX>
       <MODITEM srcId="lfo3" depth="1.0" enabled="1" dstId="osc3volume" function="linear"
                biPolarMapping="1"/>
-      <MODITEM srcId="mlfo4" depth="0.7599999904632568" enabled="1" dstId="env1syncrepeat"
-               function="linear" biPolarMapping="1"/>
       <MODITEM srcId="lfo2" depth="0.1299999952316284" enabled="1" dstId="lfo2offset"
                function="linear" biPolarMapping="1"/>
       <MODITEM srcId="mpet" depth="0.300000011920929" enabled="1" dstId="lfo4offset"
                function="linear" biPolarMapping="0"/>
-      <MODITEM srcId="mlfo1" depth="1.0" enabled="1" dstId="fltfreq" function="linear"
-               biPolarMapping="1"/>
       <MODITEM srcId="mlfo2" depth="1.0" enabled="1" dstId="pitch" function="linear"
+               biPolarMapping="1"/>
+      <MODITEM srcId="mlfo1" depth="1.0" enabled="1" dstId="fltfreq" function="linear"
                biPolarMapping="1"/>
       <MODITEM srcId="mlfo3" depth="1.0" enabled="1" dstId="dltimeright" function="linear"
                biPolarMapping="1"/>
@@ -44,6 +41,7 @@
       <PT t="0.5" v="1.0" c="5.5"/>
       <PT t="1.0" v="0.0" c="5.5"/>
     </mseg4>
+    <sample/>
   </state>
   <param uid="osc1coarse" val="2.0"/>
   <param uid="osc1fine" val="1.701185464859009"/>
@@ -116,16 +114,19 @@
   <param uid="lfo4beat" val="32.0"/>
   <param uid="lfo4offset" val="-0.02926462888717651"/>
   <param uid="lfo4fade" val="2.667697906494141"/>
+  <param uid="blend" val="0.2059973925352097"/>
+  <param uid="demodmix" val="0.6408864259719849"/>
+  <param uid="algo" val="2.0"/>
+  <param uid="fltkey" val="21.32436561584473"/>
+  <param uid="fltfreq" val="94.73259735107422"/>
+  <param uid="fltres" val="28.18678665161133"/>
+  <param uid="auxvolume" val="-11.99999809265137"/>
+  <param uid="samplvolume" val="-11.99999809265137"/>
   <param uid="mono" val="1.0"/>
   <param uid="gMode" val="2.0"/>
   <param uid="gRate" val="0.05261588469147682"/>
   <param uid="legato" val="1.0"/>
-  <param uid="fltkey" val="21.32436561584473"/>
-  <param uid="fltfreq" val="94.73259735107422"/>
-  <param uid="fltres" val="28.18678665161133"/>
-  <param uid="blend" val="0.2059973925352097"/>
-  <param uid="demodmix" val="0.6408864259719849"/>
-  <param uid="algo" val="2.0"/>
+  <param uid="fxgain" val="3.814697265625e-6"/>
   <param uid="wsdrive" val="14.01203346252441"/>
   <param uid="wsdry" val="0.7220539450645447"/>
   <param uid="cpattack" val="0.0000199999994947575"/>
@@ -143,4 +144,6 @@
   <param uid="fxa1" val="1.0"/>
   <param uid="fxa2" val="3.0"/>
   <param uid="fxb2" val="7.0"/>
+  <param uid="laneAGain" val="3.814697265625e-6"/>
+  <param uid="laneBGain" val="3.814697265625e-6"/>
 </state>

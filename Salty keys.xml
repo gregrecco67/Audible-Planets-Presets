@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <state name="Salty keys" author="factory" tags="keys inharmonic">
-  <state>
-    <instance selectedAuthors="" selectedTags="" editorScale="1.499310374259949"/>
+  <state sample="">
+    <instance selectedAuthors="" selectedTags=""/>
     <MODMATRIX>
       <MODITEM srcId="lfo2" depth="1.0" enabled="1" dstId="osc2phase" function="linear"
                biPolarMapping="1"/>
@@ -37,6 +37,7 @@
       <PT t="0.5" v="1.0" c="5.5"/>
       <PT t="1.0" v="0.0" c="5.5"/>
     </mseg4>
+    <sample/>
   </state>
   <param uid="osc1volume" val="1.0"/>
   <param uid="osc2fine" val="0.03999996185302734"/>
@@ -54,7 +55,7 @@
   <param uid="env1release" val="0.0"/>
   <param uid="env1time" val="0.09999998658895493"/>
   <param uid="env2attack" val="0.0"/>
-  <param uid="env2decay" val="0.06000005081295967"/>
+  <param uid="env2decay" val="0.06000008061528206"/>
   <param uid="env2sustain" val="44.0"/>
   <param uid="env2release" val="0.09999998658895493"/>
   <param uid="env2time" val="0.09999998658895493"/>
@@ -80,6 +81,7 @@
   <param uid="equant" val="0.1439999938011169"/>
   <param uid="demodmix" val="0.2560000121593475"/>
   <param uid="fltres" val="31.20000076293945"/>
+  <param uid="auxvolume" val="-11.99999809265137"/>
   <param uid="fxgain" val="3.814697265625e-6"/>
   <param uid="chrate" val="0.05000001192092896"/>
   <param uid="rvsize" val="0.5624205470085144"/>

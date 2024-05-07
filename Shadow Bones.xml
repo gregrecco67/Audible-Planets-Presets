@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <state name="Shadow Bones" author="factory" tags="repeating keys">
-  <state>
-    <instance editorScale="1.513490676879883" selectedAuthors="" selectedTags=""/>
+  <state sample="">
+    <instance selectedAuthors="" selectedTags=""/>
     <MODMATRIX>
       <MODITEM srcId="mseg2" depth="0.85999995470047" enabled="1" dstId="osc3volume"
                function="linear" biPolarMapping="1"/>
@@ -45,6 +45,7 @@
       <PT t="0.5" v="1.0" c="5.5"/>
       <PT t="1.0" v="0.0" c="5.5"/>
     </mseg4>
+    <sample/>
   </state>
   <param uid="osc1volume" val="0.7999999523162842"/>
   <param uid="osc1phase" val="1.0"/>
@@ -89,10 +90,11 @@
   <param uid="lfo3enable" val="1.0"/>
   <param uid="lfo4enable" val="1.0"/>
   <param uid="lfo4beat" val="23.0"/>
-  <param uid="squash" val="0.6947792172431946"/>
-  <param uid="fltfreq" val="98.28921508789062"/>
   <param uid="blend" val="0.03197550028562546"/>
   <param uid="demodmix" val="0.171505019068718"/>
+  <param uid="fltfreq" val="98.28921508789062"/>
+  <param uid="auxvolume" val="-11.99999809265137"/>
+  <param uid="squash" val="0.6947792172431946"/>
   <param uid="fxgain" val="3.814697265625e-6"/>
   <param uid="wsdrive" val="7.517186164855957"/>
   <param uid="wswet" val="0.1773284375667572"/>

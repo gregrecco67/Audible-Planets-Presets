@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <state name="Swell Keys 2" author="factory" tags="keys swell">
-  <state>
-    <instance editorScale="1.633103489875793" selectedAuthors="me" selectedTags=""
-              browserOpen="1"/>
+  <state sample="">
+    <instance selectedAuthors="" selectedTags=""/>
     <MODMATRIX/>
     <mseg1 startIndex="0" endIndex="2">
       <PT t="0.0" v="0.0" c="5.5"/>
@@ -25,6 +24,7 @@
       <PT t="0.5" v="1.0" c="5.5"/>
       <PT t="1.0" v="0.0" c="5.5"/>
     </mseg4>
+    <sample/>
   </state>
   <param uid="osc1volume" val="0.5399999618530273"/>
   <param uid="osc1pan" val="-0.3578328788280487"/>
@@ -66,10 +66,13 @@
   <param uid="lfo1enable" val="1.0"/>
   <param uid="lfo1sync" val="0.0"/>
   <param uid="lfo1rate" val="0.02818279340863228"/>
-  <param uid="fltfreq" val="102.4372482299805"/>
-  <param uid="fltres" val="23.2788200378418"/>
   <param uid="equant" val="0.1778289079666138"/>
   <param uid="algo" val="1.0"/>
+  <param uid="fltfreq" val="102.4372482299805"/>
+  <param uid="fltres" val="23.2788200378418"/>
+  <param uid="auxvolume" val="-11.99999809265137"/>
+  <param uid="samplvolume" val="-11.99999809265137"/>
+  <param uid="fxgain" val="3.814697265625e-6"/>
   <param uid="wsdrive" val="15.5920934677124"/>
   <param uid="wswet" val="0.2561771869659424"/>
   <param uid="wsfunc" val="5.0"/>
@@ -93,4 +96,6 @@
   <param uid="fxa2" val="6.0"/>
   <param uid="fxb1" val="3.0"/>
   <param uid="chainAtoB" val="0.0"/>
+  <param uid="laneAGain" val="3.814697265625e-6"/>
+  <param uid="laneBGain" val="3.814697265625e-6"/>
 </state>

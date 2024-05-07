@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <state name="Seconds" author="factory" tags="evolving inharmonic">
-  <state>
-    <instance editorScale="1.633103489875793" selectedAuthors="me" selectedTags=""
-              browserOpen="1"/>
+  <state sample="">
+    <instance selectedAuthors="" selectedTags=""/>
     <MODMATRIX>
       <MODITEM srcId="lfo3" depth="0.2199999988079071" enabled="1" dstId="osc1coarse"
                function="linear" biPolarMapping="1"/>
@@ -27,12 +26,12 @@
                function="linear" biPolarMapping="1"/>
       <MODITEM srcId="lfo1" depth="-0.8100000023841858" enabled="1" dstId="env4sustain"
                function="linear" biPolarMapping="1"/>
-      <MODITEM srcId="mw" depth="1.0" enabled="1" dstId="gRate" function="linear"
-               biPolarMapping="0"/>
       <MODITEM srcId="lfo3" depth="0.4399999976158142" enabled="1" dstId="pitch"
                function="linear" biPolarMapping="1"/>
       <MODITEM srcId="mlfo3" depth="1.0" enabled="1" dstId="demodmix" function="linear"
                biPolarMapping="1"/>
+      <MODITEM srcId="mw" depth="1.0" enabled="1" dstId="gRate" function="linear"
+               biPolarMapping="0"/>
       <MODITEM srcId="vel" depth="-0.119999997317791" enabled="1" dstId="rvwet"
                function="linear" biPolarMapping="0"/>
       <MODITEM srcId="mlfo2" depth="0.5099999904632568" enabled="1" dstId="rmmodfreq2"
@@ -58,6 +57,7 @@
       <PT t="0.5" v="1.0" c="5.5"/>
       <PT t="1.0" v="0.0" c="5.5"/>
     </mseg4>
+    <sample/>
   </state>
   <param uid="osc1volume" val="0.5600000023841858"/>
   <param uid="osc1tones" val="5.900000095367432"/>
@@ -120,13 +120,14 @@
   <param uid="lfo3wave" val="7.0"/>
   <param uid="lfo3rate" val="2.431285858154297"/>
   <param uid="lfo3offset" val="0.8800000548362732"/>
-  <param uid="velSens" val="0.0"/>
-  <param uid="fltfreq" val="97.13872528076172"/>
   <param uid="equant" val="0.2773333489894867"/>
   <param uid="pitch" val="0.7194530963897705"/>
   <param uid="blend" val="0.3279999792575836"/>
   <param uid="demodmix" val="0.2666668593883514"/>
   <param uid="algo" val="2.0"/>
+  <param uid="fltfreq" val="97.13872528076172"/>
+  <param uid="auxvolume" val="-11.99999809265137"/>
+  <param uid="velSens" val="0.0"/>
   <param uid="speed" val="0.09386689960956573"/>
   <param uid="scale" val="2.066665887832642"/>
   <param uid="fxgain" val="-17.9333381652832"/>
@@ -136,7 +137,7 @@
   <param uid="wsfunc" val="5.0"/>
   <param uid="cpthreshold" val="-7.359996795654297"/>
   <param uid="cpratio" val="3.975997686386108"/>
-  <param uid="cpattack" val="0.004020000342279673"/>
+  <param uid="cpattack" val="0.004019999876618385"/>
   <param uid="cpknee" val="0.7999999523162842"/>
   <param uid="dlbeatsright" val="19.0"/>
   <param uid="dlpingpong" val="1.0"/>
@@ -164,4 +165,6 @@
   <param uid="fxb1" val="1.0"/>
   <param uid="fxb2" val="2.0"/>
   <param uid="fxb3" val="7.0"/>
+  <param uid="laneAGain" val="3.814697265625e-6"/>
+  <param uid="laneBGain" val="3.814697265625e-6"/>
 </state>

@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <state name="Wah Lead 2" author="factory" tags="lead">
-  <state>
-    <instance editorScale="1.633103489875793" selectedAuthors="me" selectedTags=""
-              browserOpen="0"/>
+  <state sample="">
+    <instance selectedAuthors="" selectedTags=""/>
     <MODMATRIX>
       <MODITEM srcId="vel" depth="0.2199999988079071" enabled="1" dstId="osc2volume"
                function="linear" biPolarMapping="0"/>
@@ -16,8 +15,6 @@
       <MODITEM srcId="env3" depth="1.0" enabled="1" dstId="osc3tones" function="linear"
                biPolarMapping="1"/>
       <MODITEM srcId="env2" depth="0.4000000059604645" enabled="1" dstId="osc3fixed"
-               function="linear" biPolarMapping="1"/>
-      <MODITEM srcId="env4" depth="0.4000000059604645" enabled="1" dstId="osc4env"
                function="linear" biPolarMapping="1"/>
       <MODITEM srcId="pb" depth="0.4375" enabled="1" dstId="pitch" function="linear"
                biPolarMapping="1"/>
@@ -42,6 +39,7 @@
       <PT t="0.5" v="1.0" c="5.5"/>
       <PT t="1.0" v="0.0" c="5.5"/>
     </mseg4>
+    <sample/>
   </state>
   <param uid="osc1volume" val="0.4599999785423279"/>
   <param uid="osc2coarse" val="7.0"/>
@@ -81,14 +79,16 @@
   <param uid="env4release" val="1.085832238197327"/>
   <param uid="env4syncrepeat" val="1.0"/>
   <param uid="env4time" val="0.09999998658895493"/>
-  <param uid="gMode" val="2.0"/>
-  <param uid="gRate" val="0.0291804950684309"/>
-  <param uid="velSens" val="67.44838714599609"/>
-  <param uid="mpe" val="1.0"/>
-  <param uid="fltfreq" val="108.6238632202148"/>
-  <param uid="fltres" val="39.60468673706055"/>
   <param uid="demodmix" val="0.464260995388031"/>
   <param uid="algo" val="2.0"/>
+  <param uid="fltfreq" val="108.6238632202148"/>
+  <param uid="fltres" val="39.60468673706055"/>
+  <param uid="auxvolume" val="-11.99999809265137"/>
+  <param uid="samplvolume" val="-11.99999809265137"/>
+  <param uid="velSens" val="67.44838714599609"/>
+  <param uid="gMode" val="2.0"/>
+  <param uid="gRate" val="0.0291804950684309"/>
+  <param uid="mpe" val="1.0"/>
   <param uid="fxgain" val="-18.88544845581055"/>
   <param uid="wsdrive" val="25.11963653564453"/>
   <param uid="wsdry" val="0.9296875"/>
@@ -125,4 +125,6 @@
   <param uid="rmlowcut" val="451.2666015625"/>
   <param uid="rmhighcut" val="9090.544921875"/>
   <param uid="chainAtoB" val="0.0"/>
+  <param uid="laneAGain" val="3.814697265625e-6"/>
+  <param uid="laneBGain" val="3.814697265625e-6"/>
 </state>
