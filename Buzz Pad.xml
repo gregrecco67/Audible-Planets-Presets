@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <state name="Buzz Pad" author="factory" tags="pad">
-  <state>
-    <instance editorScale="1.633103489875793" selectedAuthors="me" selectedTags=""
-              browserOpen="1"/>
+  <state sample="">
+    <instance selectedAuthors="" selectedTags=""/>
     <MODMATRIX/>
     <mseg1 startIndex="0" endIndex="2">
       <PT t="0.0" v="0.0" c="5.5"/>
@@ -25,6 +24,7 @@
       <PT t="0.5" v="1.0" c="5.5"/>
       <PT t="1.0" v="0.0" c="5.5"/>
     </mseg4>
+    <sample/>
   </state>
   <param uid="osc1coarse" val="2.0"/>
   <param uid="osc1volume" val="0.7400000095367432"/>
@@ -63,9 +63,11 @@
   <param uid="env4sustain" val="100.0"/>
   <param uid="env4release" val="0.09999998658895493"/>
   <param uid="env4time" val="0.09999998658895493"/>
+  <param uid="equant" val="0.5"/>
   <param uid="fltfreq" val="89.15031433105469"/>
   <param uid="fltres" val="57.59999847412109"/>
-  <param uid="equant" val="0.5"/>
+  <param uid="auxvolume" val="-11.99999809265137"/>
+  <param uid="fxgain" val="3.814697265625e-6"/>
   <param uid="cpattack" val="0.0000199999994947575"/>
   <param uid="chrate" val="0.05000001192092896"/>
   <param uid="rvsize" val="1.583999991416931"/>
@@ -74,4 +76,6 @@
   <param uid="rmmodfreq1" val="39.9999885559082"/>
   <param uid="rmmodfreq2" val="39.9999885559082"/>
   <param uid="fxa1" val="6.0"/>
+  <param uid="laneAGain" val="3.814697265625e-6"/>
+  <param uid="laneBGain" val="3.814697265625e-6"/>
 </state>

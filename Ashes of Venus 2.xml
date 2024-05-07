@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <state name="Ashes of Venus 2" author="factory" tags="keys repeating">
-  <state>
-    <instance editorScale="1.633103489875793" selectedAuthors="me" selectedTags=""
-              browserOpen="1"/>
+  <state sample="">
+    <instance selectedAuthors="" selectedTags=""/>
     <MODMATRIX>
       <MODITEM srcId="lfo2" depth="0.7200000286102295" enabled="1" dstId="osc2phase"
                function="linear" biPolarMapping="1"/>
@@ -30,6 +29,7 @@
       <PT t="0.5" v="1.0" c="5.5"/>
       <PT t="1.0" v="0.0" c="5.5"/>
     </mseg4>
+    <sample/>
   </state>
   <param uid="osc1phase" val="0.399577409029007"/>
   <param uid="osc1spread" val="100.0"/>
@@ -71,12 +71,14 @@
   <param uid="lfo2rate" val="5.274516582489014"/>
   <param uid="lfo2beat" val="23.0"/>
   <param uid="lfo2depth" val="0.5117028951644897"/>
+  <param uid="demodmix" val="0.261593371629715"/>
   <param uid="fltkey" val="46.19246292114258"/>
   <param uid="fltfreq" val="99.55437469482422"/>
   <param uid="fltres" val="21.24177169799805"/>
-  <param uid="demodmix" val="0.261593371629715"/>
+  <param uid="auxvolume" val="-11.99999809265137"/>
+  <param uid="fxgain" val="3.814697265625e-6"/>
   <param uid="wsdrive" val="19.14656448364258"/>
-  <param uid="wsgain" val="0.4292027652263641"/>
+  <param uid="wsgain" val="0.4292030334472656"/>
   <param uid="wswet" val="0.1724506765604019"/>
   <param uid="cpattack" val="0.0000199999994947575"/>
   <param uid="dlbeatsright" val="14.0"/>
@@ -94,6 +96,8 @@
   <param uid="fxa3" val="3.0"/>
   <param uid="fxb1" val="1.0"/>
   <param uid="fxb2" val="6.0"/>
+  <param uid="laneAGain" val="3.814697265625e-6"/>
+  <param uid="laneBGain" val="3.814697265625e-6"/>
   <param uid="mseg1xgrid" val="2.0"/>
   <param uid="mseg1draw" val="1.0"/>
   <param uid="mseg1drawmode" val="1.0"/>

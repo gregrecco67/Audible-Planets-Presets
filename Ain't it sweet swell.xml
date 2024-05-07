@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <state name="Ain't it sweet swell" author="factory" tags="keys">
-  <state>
-    <instance selectedAuthors="" selectedTags="" editorScale="1.368275880813599"/>
+  <state sample="">
+    <instance selectedAuthors="" selectedTags=""/>
     <MODMATRIX>
       <MODITEM srcId="env3" depth="0.1700000017881393" enabled="1" dstId="fltfreq"
                function="linear" biPolarMapping="1"/>
@@ -27,6 +27,7 @@
       <PT t="0.5" v="1.0" c="5.5"/>
       <PT t="1.0" v="0.0" c="5.5"/>
     </mseg4>
+    <sample/>
   </state>
   <param uid="osc1detune" val="0.05952343717217445"/>
   <param uid="osc1spread" val="92.8125"/>
@@ -45,6 +46,7 @@
   <param uid="env2decay" val="0.684641420841217"/>
   <param uid="env2sustain" val="13.29374980926514"/>
   <param uid="env2release" val="4.556265354156494"/>
+  <param uid="env2time" val="0.09999998658895493"/>
   <param uid="env3attack" val="0.9297484159469604"/>
   <param uid="env3decay" val="0.6260579824447632"/>
   <param uid="env3sustain" val="34.07187652587891"/>
@@ -56,17 +58,19 @@
   <param uid="env4sustain" val="6.626562595367432"/>
   <param uid="env4release" val="2.53827428817749"/>
   <param uid="env4acurve" val="-0.2556250095367432"/>
-  <param uid="legato" val="1.0"/>
-  <param uid="squash" val="0.2480156421661377"/>
-  <param uid="flttype" val="1.0"/>
-  <param uid="fltkey" val="23.49531173706055"/>
-  <param uid="fltfreq" val="83.90475463867188"/>
-  <param uid="fltres" val="39.05156326293945"/>
+  <param uid="env4time" val="0.09999998658895493"/>
   <param uid="blend" val="0.1845781207084656"/>
   <param uid="demodmix" val="0.255187451839447"/>
   <param uid="algo" val="1.0"/>
   <param uid="demodVol" val="3.379437446594238"/>
-  <param uid="fxgain" val="1.000001430511475"/>
+  <param uid="flttype" val="1.0"/>
+  <param uid="fltkey" val="23.49531173706055"/>
+  <param uid="fltfreq" val="83.90475463867188"/>
+  <param uid="fltres" val="39.05156326293945"/>
+  <param uid="auxvolume" val="-11.99999809265137"/>
+  <param uid="squash" val="0.2480156421661377"/>
+  <param uid="legato" val="1.0"/>
+  <param uid="fxgain" val="1.0"/>
   <param uid="wsdrive" val="23.22268867492676"/>
   <param uid="wsfunc" val="1.0"/>
   <param uid="cpthreshold" val="-32.95969009399414"/>
@@ -94,6 +98,6 @@
   <param uid="fxb2" val="4.0"/>
   <param uid="fxb4" val="6.0"/>
   <param uid="chainAtoB" val="0.0"/>
-  <param uid="laneAGain" val="6.168749809265137"/>
-  <param uid="laneBGain" val="1.000001430511475"/>
+  <param uid="laneAGain" val="6.168746948242188"/>
+  <param uid="laneBGain" val="1.0"/>
 </state>

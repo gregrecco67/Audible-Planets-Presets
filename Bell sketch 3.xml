@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <state name="Bell sketch 3" author="factory" tags="bells lead">
-  <state>
-    <instance editorScale="1.633103489875793" selectedAuthors="me" selectedTags=""
-              browserOpen="1"/>
+  <state sample="">
+    <instance selectedAuthors="" selectedTags=""/>
     <MODMATRIX>
       <MODITEM srcId="mlfo1" depth="0.5899999737739563" enabled="1" dstId="rmmodfreq1"
                function="linear" biPolarMapping="1"/>
@@ -32,6 +31,7 @@
       <PT t="0.5" v="1.0" c="5.5"/>
       <PT t="1.0" v="0.0" c="5.5"/>
     </mseg4>
+    <sample/>
   </state>
   <param uid="osc2coarse" val="15.0"/>
   <param uid="osc2fine" val="0.2809557616710663"/>
@@ -65,12 +65,14 @@
   <param uid="lfo1depth" val="0.1478437185287476"/>
   <param uid="lfo2enable" val="1.0"/>
   <param uid="lfo2beat" val="27.0"/>
+  <param uid="demodmix" val="0.3287031352519989"/>
+  <param uid="fltfreq" val="86.86246490478516"/>
+  <param uid="auxvolume" val="-11.99999809265137"/>
   <param uid="gMode" val="2.0"/>
   <param uid="gRate" val="0.01235583610832691"/>
   <param uid="legato" val="1.0"/>
-  <param uid="fltfreq" val="86.86246490478516"/>
-  <param uid="demodmix" val="0.3287031352519989"/>
   <param uid="scale" val="1.966077208518982"/>
+  <param uid="fxgain" val="3.814697265625e-6"/>
   <param uid="wsdrive" val="16.77112579345703"/>
   <param uid="cpattack" val="0.0000199999994947575"/>
   <param uid="dlbeatsright" val="10.0"/>
@@ -95,4 +97,6 @@
   <param uid="fxa3" val="6.0"/>
   <param uid="fxa4" val="3.0"/>
   <param uid="fxb1" val="1.0"/>
+  <param uid="laneAGain" val="3.814697265625e-6"/>
+  <param uid="laneBGain" val="3.814697265625e-6"/>
 </state>

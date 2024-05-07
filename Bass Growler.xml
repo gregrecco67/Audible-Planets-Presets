@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <state name="Bass Growler" author="factory" tags="bass">
-  <state>
+  <state sample="">
     <instance selectedAuthors="" selectedTags=""/>
     <MODMATRIX/>
     <mseg1 startIndex="0" endIndex="2">
@@ -24,6 +24,7 @@
       <PT t="0.5" v="1.0" c="5.5"/>
       <PT t="1.0" v="0.0" c="5.5"/>
     </mseg4>
+    <sample/>
   </state>
   <param uid="osc1volume" val="1.0"/>
   <param uid="osc2coarse" val="5.0"/>
@@ -54,6 +55,7 @@
   <param uid="env4time" val="0.09999998658895493"/>
   <param uid="fltfreq" val="96.00965118408203"/>
   <param uid="fltres" val="39.60468673706055"/>
+  <param uid="auxvolume" val="-11.99999809265137"/>
   <param uid="fxgain" val="3.814697265625e-6"/>
   <param uid="wsdrive" val="27.32955932617188"/>
   <param uid="wswet" val="1.0"/>

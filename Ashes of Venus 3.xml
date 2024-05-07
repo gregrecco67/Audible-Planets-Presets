@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <state name="Ashes of Venus 3" author="factory" tags="keys repeating">
-  <state>
-    <instance editorScale="1.633103489875793" selectedAuthors="me" selectedTags=""
-              browserOpen="1"/>
+  <state sample="">
+    <instance selectedAuthors="" selectedTags=""/>
     <MODMATRIX>
       <MODITEM srcId="lfo2" depth="1.0" enabled="1" dstId="osc1phase" function="linear"
                biPolarMapping="1"/>
@@ -50,6 +49,7 @@
       <PT t="0.5" v="1.0" c="5.5"/>
       <PT t="1.0" v="0.0" c="5.5"/>
     </mseg4>
+    <sample/>
   </state>
   <param uid="osc1phase" val="0.7275773882865906"/>
   <param uid="osc1tones" val="1.256999969482422"/>
@@ -99,17 +99,19 @@
   <param uid="lfo3rate" val="0.05110571533441544"/>
   <param uid="lfo4enable" val="1.0"/>
   <param uid="lfo4beat" val="22.0"/>
-  <param uid="squash" val="0.2109375"/>
-  <param uid="fltkey" val="46.19246292114258"/>
-  <param uid="fltfreq" val="104.417121887207"/>
-  <param uid="fltres" val="21.24177169799805"/>
   <param uid="equant" val="0.01999998092651367"/>
   <param uid="blend" val="0.1000000014901161"/>
   <param uid="demodmix" val="0.261593371629715"/>
   <param uid="algo" val="2.0"/>
   <param uid="demodVol" val="2.559999942779541"/>
+  <param uid="fltkey" val="46.19246292114258"/>
+  <param uid="fltfreq" val="104.417121887207"/>
+  <param uid="fltres" val="21.24177169799805"/>
+  <param uid="auxvolume" val="-11.99999809265137"/>
+  <param uid="squash" val="0.2109375"/>
+  <param uid="fxgain" val="3.814697265625e-6"/>
   <param uid="wsdrive" val="14.10400009155273"/>
-  <param uid="wsgain" val="0.4292027652263641"/>
+  <param uid="wsgain" val="0.4292030334472656"/>
   <param uid="wswet" val="0.3444506824016571"/>
   <param uid="wshighshelf" val="7622.7763671875"/>
   <param uid="cpattack" val="0.0000199999994947575"/>
@@ -128,4 +130,6 @@
   <param uid="fxa3" val="3.0"/>
   <param uid="fxb1" val="1.0"/>
   <param uid="fxb2" val="6.0"/>
+  <param uid="laneAGain" val="3.814697265625e-6"/>
+  <param uid="laneBGain" val="3.814697265625e-6"/>
 </state>

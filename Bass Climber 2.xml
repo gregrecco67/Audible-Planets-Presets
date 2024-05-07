@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <state name="Bass Climber 2" author="factory" tags="bass repeating">
-  <state>
-    <instance editorScale="1.633103489875793" selectedAuthors="me" selectedTags=""
-              browserOpen="1"/>
+  <state sample="">
+    <instance selectedAuthors="" selectedTags=""/>
     <MODMATRIX>
       <MODITEM srcId="lfo3" depth="1.0" enabled="1" dstId="osc2coarse" function="linear"
                biPolarMapping="1"/>
@@ -34,6 +33,7 @@
       <PT t="0.5" v="1.0" c="5.5"/>
       <PT t="1.0" v="0.0" c="5.5"/>
     </mseg4>
+    <sample/>
   </state>
   <param uid="osc1coarse" val="3.0"/>
   <param uid="osc1volume" val="0.449999988079071"/>
@@ -98,11 +98,12 @@
   <param uid="lfo3wave" val="3.0"/>
   <param uid="lfo3depth" val="0.1034958362579346"/>
   <param uid="lfo3offset" val="0.02134525775909424"/>
-  <param uid="gRate" val="0.1555164158344269"/>
+  <param uid="demodmix" val="0.3196174800395966"/>
   <param uid="fltkey" val="100.0"/>
   <param uid="fltfreq" val="85.55789184570312"/>
   <param uid="fltres" val="39.60468673706055"/>
-  <param uid="demodmix" val="0.3196174800395966"/>
+  <param uid="auxvolume" val="-11.99999809265137"/>
+  <param uid="gRate" val="0.1555164158344269"/>
   <param uid="fxgain" val="29.28257751464844"/>
   <param uid="wsdrive" val="27.03852844238281"/>
   <param uid="wswet" val="1.0"/>
@@ -132,4 +133,6 @@
   <param uid="fxb2" val="5.0"/>
   <param uid="fxb3" val="7.0"/>
   <param uid="chainAtoB" val="0.0"/>
+  <param uid="laneAGain" val="3.814697265625e-6"/>
+  <param uid="laneBGain" val="3.814697265625e-6"/>
 </state>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<state name="Bloops Drone 2" author="factory" tags="drone">
+<state name="Bloops Drone 3" author="factory" tags="drone">
   <state sample="">
     <instance selectedAuthors="" selectedTags=""/>
     <MODMATRIX>
-      <MODITEM srcId="env2" depth="-0.01999999955296516" enabled="1" dstId="osc2fine"
+      <MODITEM srcId="env2" depth="0.2360000014305115" enabled="1" dstId="osc2fine"
                function="linear" biPolarMapping="1"/>
       <MODITEM srcId="lfo2" depth="1.0" enabled="1" dstId="osc2fine" function="linear"
                biPolarMapping="1"/>
-      <MODITEM srcId="env3" depth="0.03999999910593033" enabled="1" dstId="osc3fine"
-               function="linear" biPolarMapping="1"/>
+      <MODITEM srcId="env3" depth="0.125" enabled="1" dstId="osc3fine" function="linear"
+               biPolarMapping="1"/>
       <MODITEM srcId="env3" depth="0.1567319184541702" enabled="1" dstId="osc4phase"
                function="quadraticIn" biPolarMapping="1"/>
       <MODITEM srcId="mlfo4" depth="0.1599999964237213" enabled="1" dstId="osc4detune"
@@ -22,14 +22,10 @@
                function="invExponentialInOut" biPolarMapping="1"/>
       <MODITEM srcId="lfo2" depth="-0.1567319184541702" enabled="1" dstId="lfo1offset"
                function="invSineIn" biPolarMapping="1"/>
-      <MODITEM srcId="mpet" depth="-0.1599999964237213" enabled="1" dstId="lfo1fade"
+      <MODITEM srcId="mpet" depth="-0.2339999973773956" enabled="1" dstId="lfo1fade"
                function="linear" biPolarMapping="0"/>
       <MODITEM srcId="mw" depth="-0.1599999964237213" enabled="1" dstId="lfo1fade"
                function="exponentialInOut" biPolarMapping="0"/>
-      <MODITEM srcId="lfo1" depth="2.081668171172169e-17" enabled="1" dstId="lfo1delay"
-               function="exponentialIn" biPolarMapping="1"/>
-      <MODITEM srcId="mlfo3" depth="0.1599999964237213" enabled="1" dstId="lfo1delay"
-               function="sineIn" biPolarMapping="1"/>
       <MODITEM srcId="mlfo2" depth="0.1599999964237213" enabled="1" dstId="lfo2rate"
                function="sineIn" biPolarMapping="1"/>
       <MODITEM srcId="lfo3" depth="1.0" enabled="1" dstId="lfo2depth" function="linear"
@@ -38,12 +34,16 @@
                function="exponentialOut" biPolarMapping="1"/>
       <MODITEM srcId="lfo2" depth="0.1567319184541702" enabled="1" dstId="fltfreq"
                function="quadraticIn" biPolarMapping="1"/>
+      <MODITEM srcId="macro1" depth="0.8283195495605469" enabled="1" dstId="fltfreq"
+               function="linear" biPolarMapping="0"/>
       <MODITEM srcId="lfo3" depth="0.1599999964237213" enabled="1" dstId="rmspread"
                function="quadraticOut" biPolarMapping="1"/>
     </MODMATRIX>
-    <mseg1 startIndex="0" endIndex="2">
+    <mseg1 startIndex="0" endIndex="4">
       <PT t="0.0" v="0.0" c="5.5"/>
-      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="0.5" v="1.0" c="-50.0"/>
+      <PT t="0.699999988079071" v="0.0" c="0.0"/>
+      <PT t="0.800000011920929" v="1.0" c="-22.63789558410645"/>
       <PT t="1.0" v="0.0" c="5.5"/>
     </mseg1>
     <mseg2 startIndex="0" endIndex="2">
@@ -51,9 +51,21 @@
       <PT t="0.5" v="1.0" c="5.5"/>
       <PT t="1.0" v="0.0" c="5.5"/>
     </mseg2>
-    <mseg3 startIndex="0" endIndex="2">
+    <mseg3 startIndex="0" endIndex="14">
       <PT t="0.0" v="0.0" c="5.5"/>
-      <PT t="0.5" v="1.0" c="5.5"/>
+      <PT t="0.1000000014901161" v="0.1564252227544785" c="0.0"/>
+      <PT t="0.1000000014901161" v="0.903063952922821" c="0.0"/>
+      <PT t="0.2000000029802322" v="0.903063952922821" c="0.0"/>
+      <PT t="0.2000000029802322" v="-0.75" c="0.0"/>
+      <PT t="0.300000011920929" v="-0.75" c="6.575891494750977"/>
+      <PT t="0.5" v="1.0" c="0.0"/>
+      <PT t="0.5" v="-0.901462197303772" c="0.0"/>
+      <PT t="0.6000000238418579" v="-0.901462197303772" c="0.0"/>
+      <PT t="0.6000000238418579" v="-0.08540248870849609" c="0.0"/>
+      <PT t="0.699999988079071" v="-0.08540248870849609" c="0.0"/>
+      <PT t="0.699999988079071" v="0.25" c="0.0"/>
+      <PT t="0.800000011920929" v="0.25" c="0.0"/>
+      <PT t="0.800000011920929" v="0.8124986290931702" c="-7.346232891082764"/>
       <PT t="1.0" v="0.0" c="5.5"/>
     </mseg3>
     <mseg4 startIndex="0" endIndex="2">
@@ -64,6 +76,7 @@
     <sample/>
   </state>
   <param uid="osc1coarse" val="8.0"/>
+  <param uid="osc1volume" val="0.7699999809265137"/>
   <param uid="osc1detune" val="0.08434922993183136"/>
   <param uid="osc1spread" val="81.6248779296875"/>
   <param uid="osc2coarse" val="3.0"/>
@@ -95,17 +108,26 @@
   <param uid="env4release" val="0.05519367381930351"/>
   <param uid="env4acurve" val="-0.1927804946899414"/>
   <param uid="env4time" val="0.09999998658895493"/>
+  <param uid="lfo1enable" val="1.0"/>
+  <param uid="lfo1wave" val="3.0"/>
+  <param uid="lfo1depth" val="0.5347312092781067"/>
+  <param uid="lfo1fade" val="0.6709823608398438"/>
+  <param uid="lfo1delay" val="0.01498890854418278"/>
   <param uid="lfo2enable" val="1.0"/>
   <param uid="lfo2sync" val="0.0"/>
   <param uid="lfo2rate" val="0.2618582546710968"/>
   <param uid="lfo2depth" val="0.8118500709533691"/>
   <param uid="lfo3enable" val="1.0"/>
   <param uid="lfo3wave" val="7.0"/>
-  <param uid="equant" val="0.3268396258354187"/>
+  <param uid="equant" val="0.2369580715894699"/>
   <param uid="blend" val="0.1665699481964111"/>
   <param uid="demodmix" val="0.4602746367454529"/>
+  <param uid="flttype" val="1.0"/>
+  <param uid="fltfreq" val="93.56633758544922"/>
+  <param uid="fltres" val="49.17047119140625"/>
   <param uid="auxvolume" val="-11.99999809265137"/>
   <param uid="squash" val="0.3407490253448486"/>
+  <param uid="speed" val="0.1209388449788094"/>
   <param uid="fxgain" val="1.0"/>
   <param uid="wsdrive" val="13.57738208770752"/>
   <param uid="cpthreshold" val="-21.80263519287109"/>
@@ -113,6 +135,10 @@
   <param uid="cpattack" val="0.0000199999994947575"/>
   <param uid="cpknee" val="1.090000033378601"/>
   <param uid="cpoutput" val="1.081352233886719"/>
+  <param uid="dlbeatsleft" val="17.0"/>
+  <param uid="dlfeedback" val="0.5898814797401428"/>
+  <param uid="dlwet" val="0.9611210823059082"/>
+  <param uid="dlcutoff" val="3259.360107421875"/>
   <param uid="chrate" val="0.110872246325016"/>
   <param uid="chdepth" val="0.8336414098739624"/>
   <param uid="chfeedback" val="0.3496532738208771"/>
@@ -125,6 +151,13 @@
   <param uid="fxa2" val="6.0"/>
   <param uid="fxa3" val="2.0"/>
   <param uid="fxa4" val="1.0"/>
+  <param uid="fxb1" val="3.0"/>
   <param uid="laneAGain" val="1.0"/>
   <param uid="laneBGain" val="1.0"/>
+  <param uid="laneAFreq" val="126.8559646606445"/>
+  <param uid="laneARes" val="33.57338333129883"/>
+  <param uid="Macro1CC" val="74.0"/>
+  <param uid="Macro2CC" val="71.0"/>
+  <param uid="Macro3CC" val="76.0"/>
+  <param uid="Macro4CC" val="73.0"/>
 </state>

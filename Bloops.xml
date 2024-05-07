@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <state name="Bloops" author="factory" tags="mono">
-  <state>
-    <instance selectedAuthors="" selectedTags="" editorScale="1.368275880813599"/>
+  <state sample="">
+    <instance selectedAuthors="" selectedTags=""/>
     <MODMATRIX>
       <MODITEM srcId="env4" depth="1.0" enabled="1" dstId="osc2volume" function="linear"
                biPolarMapping="1"/>
@@ -29,6 +29,7 @@
       <PT t="0.5" v="1.0" c="5.5"/>
       <PT t="1.0" v="0.0" c="5.5"/>
     </mseg4>
+    <sample/>
   </state>
   <param uid="osc1volume" val="0.2999999821186066"/>
   <param uid="osc1phase" val="0.399577409029007"/>
@@ -52,6 +53,7 @@
   <param uid="env2sustain" val="0.0"/>
   <param uid="env2release" val="0.550000011920929"/>
   <param uid="env2syncrepeat" val="1.0"/>
+  <param uid="env2time" val="0.09999998658895493"/>
   <param uid="env3attack" val="0.0"/>
   <param uid="env3decay" val="7.134391307830811"/>
   <param uid="env3sustain" val="0.0"/>
@@ -62,19 +64,21 @@
   <param uid="env4decay" val="3.686658143997192"/>
   <param uid="env4sustain" val="4.223438739776611"/>
   <param uid="env4release" val="5.766530990600586"/>
+  <param uid="env4time" val="0.09999998658895493"/>
   <param uid="lfo1depth" val="0.1478437185287476"/>
-  <param uid="gRate" val="0.04822048544883728"/>
-  <param uid="level" val="10.0"/>
-  <param uid="squash" val="1.0"/>
-  <param uid="flttype" val="1.0"/>
-  <param uid="fltfreq" val="103.4515151977539"/>
-  <param uid="fltres" val="19.11249923706055"/>
   <param uid="blend" val="0.2227656245231628"/>
   <param uid="demodmix" val="0.3287031352519989"/>
   <param uid="algo" val="3.0"/>
   <param uid="demodVol" val="3.048875093460083"/>
+  <param uid="flttype" val="1.0"/>
+  <param uid="fltfreq" val="103.4515151977539"/>
+  <param uid="fltres" val="19.11249923706055"/>
+  <param uid="auxvolume" val="-11.99999809265137"/>
+  <param uid="squash" val="1.0"/>
+  <param uid="gRate" val="0.04822048544883728"/>
+  <param uid="level" val="10.0"/>
   <param uid="scale" val="2.922109365463257"/>
-  <param uid="fxgain" val="1.000001430511475"/>
+  <param uid="fxgain" val="1.0"/>
   <param uid="cpattack" val="0.0000199999994947575"/>
   <param uid="dlbeatsright" val="14.0"/>
   <param uid="dlpingpong" val="1.0"/>
@@ -89,6 +93,6 @@
   <param uid="fxa1" val="6.0"/>
   <param uid="fxa2" val="4.0"/>
   <param uid="fxa3" val="3.0"/>
-  <param uid="laneAGain" val="1.000001430511475"/>
-  <param uid="laneBGain" val="1.000001430511475"/>
+  <param uid="laneAGain" val="1.0"/>
+  <param uid="laneBGain" val="1.0"/>
 </state>

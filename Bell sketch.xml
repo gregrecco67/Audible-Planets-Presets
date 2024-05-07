@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <state name="Bell sketch" author="factory" tags="bells keys">
-  <state>
-    <instance editorScale="1.633103489875793" selectedAuthors="me" selectedTags=""
-              browserOpen="1"/>
+  <state sample="">
+    <instance selectedAuthors="" selectedTags=""/>
     <MODMATRIX/>
     <mseg1 startIndex="0" endIndex="7">
       <PT t="0.0" v="0.0" c="5.5"/>
@@ -30,6 +29,7 @@
       <PT t="0.5" v="1.0" c="5.5"/>
       <PT t="1.0" v="0.0" c="5.5"/>
     </mseg4>
+    <sample/>
   </state>
   <param uid="osc2coarse" val="12.0"/>
   <param uid="osc2fine" val="-0.07393753528594971"/>
@@ -59,15 +59,19 @@
   <param uid="env4release" val="5.766530990600586"/>
   <param uid="env4time" val="0.09999998658895493"/>
   <param uid="lfo1depth" val="0.1478437185287476"/>
-  <param uid="level" val="10.0"/>
-  <param uid="fltfreq" val="86.86246490478516"/>
   <param uid="demodmix" val="0.3287031352519989"/>
   <param uid="algo" val="3.0"/>
+  <param uid="fltfreq" val="86.86246490478516"/>
+  <param uid="auxvolume" val="-11.99999809265137"/>
+  <param uid="level" val="10.0"/>
   <param uid="scale" val="2.922109365463257"/>
+  <param uid="fxgain" val="3.814697265625e-6"/>
   <param uid="cpattack" val="0.0000199999994947575"/>
   <param uid="chrate" val="0.05500001460313797"/>
   <param uid="rmmodfreq1" val="39.9999885559082"/>
   <param uid="rmmodfreq2" val="39.9999885559082"/>
+  <param uid="laneAGain" val="3.814697265625e-6"/>
+  <param uid="laneBGain" val="3.814697265625e-6"/>
   <param uid="mseg1xgrid" val="4.0"/>
   <param uid="mseg1draw" val="1.0"/>
 </state>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <state name="Bloops Drone" author="factory" tags="drone">
-  <state>
-    <instance selectedAuthors="" selectedTags="" editorScale="1.368275880813599"/>
+  <state sample="">
+    <instance selectedAuthors="" selectedTags=""/>
     <MODMATRIX>
       <MODITEM srcId="env2" depth="-0.01999999955296516" enabled="1" dstId="osc2fine"
                function="linear" biPolarMapping="1"/>
@@ -33,6 +33,7 @@
       <PT t="0.5" v="1.0" c="5.5"/>
       <PT t="1.0" v="0.0" c="5.5"/>
     </mseg4>
+    <sample/>
   </state>
   <param uid="osc1coarse" val="8.0"/>
   <param uid="osc1detune" val="0.08434922993183136"/>
@@ -56,6 +57,7 @@
   <param uid="env2attack" val="4.834446430206299"/>
   <param uid="env2release" val="0.09999998658895493"/>
   <param uid="env2acurve" val="-0.09141457080841064"/>
+  <param uid="env2time" val="0.09999998658895493"/>
   <param uid="env3attack" val="24.03575325012207"/>
   <param uid="env3release" val="0.09999998658895493"/>
   <param uid="env3time" val="0.09999998658895493"/>
@@ -64,17 +66,19 @@
   <param uid="env4sustain" val="11.26328754425049"/>
   <param uid="env4release" val="0.05519367381930351"/>
   <param uid="env4acurve" val="-0.1927804946899414"/>
+  <param uid="env4time" val="0.09999998658895493"/>
   <param uid="lfo2enable" val="1.0"/>
   <param uid="lfo2sync" val="0.0"/>
   <param uid="lfo2rate" val="0.2618582546710968"/>
   <param uid="lfo2depth" val="0.8118500709533691"/>
   <param uid="lfo3enable" val="1.0"/>
   <param uid="lfo3wave" val="7.0"/>
-  <param uid="squash" val="0.3407490253448486"/>
   <param uid="equant" val="0.3268396258354187"/>
   <param uid="blend" val="0.1665699481964111"/>
   <param uid="demodmix" val="0.4602746367454529"/>
-  <param uid="fxgain" val="1.000001430511475"/>
+  <param uid="auxvolume" val="-11.99999809265137"/>
+  <param uid="squash" val="0.3407490253448486"/>
+  <param uid="fxgain" val="1.0"/>
   <param uid="wsdrive" val="13.57738208770752"/>
   <param uid="cpthreshold" val="-21.80263519287109"/>
   <param uid="cpratio" val="3.349745750427246"/>
@@ -93,6 +97,6 @@
   <param uid="fxa2" val="6.0"/>
   <param uid="fxa3" val="2.0"/>
   <param uid="fxa4" val="1.0"/>
-  <param uid="laneAGain" val="1.000001430511475"/>
-  <param uid="laneBGain" val="1.000001430511475"/>
+  <param uid="laneAGain" val="1.0"/>
+  <param uid="laneBGain" val="1.0"/>
 </state>

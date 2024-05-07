@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <state name="Ain't it sweet" author="factory" tags="keys">
-  <state>
-    <instance selectedAuthors="" selectedTags="" editorScale="1.499310374259949"/>
+  <state sample="">
+    <instance selectedAuthors="" selectedTags=""/>
     <MODMATRIX>
       <MODITEM srcId="env3" depth="0.1969999969005585" enabled="1" dstId="fltfreq"
                function="linear" biPolarMapping="1"/>
@@ -27,6 +27,7 @@
       <PT t="0.5" v="1.0" c="5.5"/>
       <PT t="1.0" v="0.0" c="5.5"/>
     </mseg4>
+    <sample/>
   </state>
   <param uid="osc1detune" val="0.05952343717217445"/>
   <param uid="osc1spread" val="92.8125"/>
@@ -56,6 +57,7 @@
   <param uid="flttype" val="1.0"/>
   <param uid="fltfreq" val="104.9659729003906"/>
   <param uid="fltres" val="39.05156326293945"/>
+  <param uid="auxvolume" val="-11.99999809265137"/>
   <param uid="velSens" val="67.44837188720703"/>
   <param uid="squash" val="0.4936875104904175"/>
   <param uid="fxgain" val="1.0"/>

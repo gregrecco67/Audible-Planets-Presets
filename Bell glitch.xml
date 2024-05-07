@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <state name="Bell glitch" author="factory" tags="bells keys">
-  <state>
-    <instance editorScale="1.633103489875793" selectedAuthors="me" selectedTags=""
-              browserOpen="1"/>
+  <state sample="">
+    <instance selectedAuthors="" selectedTags=""/>
     <MODMATRIX>
       <MODITEM srcId="lfo4" depth="1.0" enabled="1" dstId="osc2pan" function="linear"
                biPolarMapping="1"/>
@@ -48,6 +47,7 @@
       <PT t="0.5" v="1.0" c="5.5"/>
       <PT t="1.0" v="0.0" c="5.5"/>
     </mseg4>
+    <sample/>
   </state>
   <param uid="osc1volume" val="0.5199999809265137"/>
   <param uid="osc1phase" val="0.0"/>
@@ -105,14 +105,16 @@
   <param uid="lfo4sync" val="0.0"/>
   <param uid="lfo4wave" val="15.0"/>
   <param uid="lfo4rate" val="0.08775109052658081"/>
-  <param uid="level" val="10.0"/>
-  <param uid="fltkey" val="100.0"/>
-  <param uid="fltfreq" val="92.80581665039062"/>
-  <param uid="fltres" val="16.79999923706055"/>
   <param uid="equant" val="0.328000009059906"/>
   <param uid="demodmix" val="0.4967031180858612"/>
   <param uid="algo" val="3.0"/>
+  <param uid="fltkey" val="100.0"/>
+  <param uid="fltfreq" val="92.80581665039062"/>
+  <param uid="fltres" val="16.79999923706055"/>
+  <param uid="auxvolume" val="-11.99999809265137"/>
+  <param uid="level" val="10.0"/>
   <param uid="scale" val="2.922109365463257"/>
+  <param uid="fxgain" val="3.814697265625e-6"/>
   <param uid="cpattack" val="0.0000199999994947575"/>
   <param uid="dlbeatsleft" val="22.0"/>
   <param uid="dlbeatsright" val="19.0"/>
@@ -126,4 +128,6 @@
   <param uid="fxa3" val="4.0"/>
   <param uid="fxb1" val="3.0"/>
   <param uid="fxb2" val="6.0"/>
+  <param uid="laneAGain" val="3.814697265625e-6"/>
+  <param uid="laneBGain" val="3.814697265625e-6"/>
 </state>
